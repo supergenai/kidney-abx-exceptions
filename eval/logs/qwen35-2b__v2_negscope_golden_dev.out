@@ -1,0 +1,24 @@
+/Users/arsalan/SupergenAI/kidney-abx-exceptions/eval/runs/golden_dev__Qwen3.5-2B-4bit.jsonl
+| metric | Qwen3.5-2B-4bit |
+|---|---|
+| n | 47 |
+| error_rate | 0.000 |
+| unsafe_approve | 0 |
+| false_fill_rate | 0.118 |
+| outcome_accuracy | 0.681 |
+| path_accuracy | 0.787 |
+| text_var_accuracy | 0.832 |
+| missed_rate | 0.133 |
+| wrong_value_rate | 0.035 |
+| renal_agreement | 1.000 |
+| quote_failed_rate | 0.062 |
+| consistency_failed_rate | 0.085 |
+| negation_conflict_rate | 0.000 |
+| parse_failed_rate | 0.000 |
+| case_pass_rate | 0.638 |
+| invariance_pass_rate | - |
+| latency_p50_s | 6.901 |
+| latency_p95_s | 9.447 |
+| tok_s_mean | 19.2 |
+
+report: eval/logs/report_qwen35-2b__v2_negscope_golden_dev.md

@@ -1,0 +1,51 @@
+patient_id,mrn,age,sex,weight_kg,ckd_stage,dialysis_modality,dialysis_days,clinic
+P001,SYN-FAKE-100037,68,M,78.2,5D,HD,MWF,Synthetic Kidney Clinic North
+P002,SYN-FAKE-100074,79,F,70.3,5D,PD,CAPD 4 exchanges/day,Synthetic Home Dialysis Program
+P003,SYN-FAKE-100111,45,M,112.8,5D,HD,TTS,Synthetic Kidney Clinic North
+P004,SYN-FAKE-100148,67,M,111.5,4,none,,Synthetic Renal Ward 4B
+P005,SYN-FAKE-100185,73,M,96.3,5D,HD,TTS,Synthetic Dialysis Unit East
+P006,SYN-FAKE-100222,43,F,99.8,5D,PD,CAPD 4 exchanges/day,Synthetic Home Dialysis Program
+P007,SYN-FAKE-100259,28,M,50.8,3b,none,,Synthetic Dialysis Unit East
+P008,SYN-FAKE-100296,52,F,72.0,5D,HD,TTS,Synthetic Renal Ward 4B
+P009,SYN-FAKE-100333,54,F,116.1,4,none,,Synthetic Kidney Clinic North
+P010,SYN-FAKE-100370,88,M,67.1,5,none,,Synthetic Dialysis Unit East
+P011,SYN-FAKE-100407,69,F,65.2,5D,HD,TTS,Synthetic Dialysis Unit East
+P012,SYN-FAKE-100444,79,M,49.6,4,none,,Synthetic Dialysis Unit East
+P013,SYN-FAKE-100481,54,M,92.9,4,none,,Synthetic Kidney Clinic North
+P014,SYN-FAKE-100518,60,F,81.8,3b,none,,Synthetic Kidney Clinic North
+P015,SYN-FAKE-100555,84,F,55.4,5D,HD,TTS,Synthetic Dialysis Unit East
+P016,SYN-FAKE-100592,77,M,99.2,5D,HD,TTS,Synthetic Kidney Clinic North
+P017,SYN-FAKE-100629,58,F,92.6,5D,PD,APD nightly,Synthetic Home Dialysis Program
+P018,SYN-FAKE-100666,47,F,77.5,5D,PD,CAPD 4 exchanges/day,Synthetic Home Dialysis Program
+P019,SYN-FAKE-100703,32,F,57.4,4,none,,Synthetic Dialysis Unit East
+P020,SYN-FAKE-100740,34,M,62.8,5,none,,Synthetic Dialysis Unit East
+P021,SYN-FAKE-100777,43,M,78.0,4,none,,Synthetic Kidney Clinic North
+P022,SYN-FAKE-100814,60,F,104.2,3a,none,,Synthetic Kidney Clinic North
+P023,SYN-FAKE-100851,41,M,96.9,5,none,,Synthetic Kidney Clinic North
+P024,SYN-FAKE-100888,68,F,102.6,5D,HD,MWF,Synthetic Dialysis Unit East
+P025,SYN-FAKE-100925,65,M,101.9,3a,none,,Synthetic Dialysis Unit East
+P026,SYN-FAKE-100962,51,F,98.9,5,none,,Synthetic Kidney Clinic North
+P027,SYN-FAKE-100999,48,F,68.6,3b,none,,Synthetic Kidney Clinic North
+P028,SYN-FAKE-101036,77,F,108.7,5D,HD,TTS,Synthetic Kidney Clinic North
+P029,SYN-FAKE-101073,81,M,67.5,5D,HD,TTS,Synthetic Kidney Clinic North
+P030,SYN-FAKE-101110,57,F,90.5,5D,HD,MWF,Synthetic Dialysis Unit East
+P031,SYN-FAKE-101147,60,M,90.7,4,none,,Synthetic Kidney Clinic North
+P032,SYN-FAKE-101184,55,F,49.6,5D,HD,MWF,Synthetic Kidney Clinic North
+P033,SYN-FAKE-101221,73,F,66.8,5D,HD,TTS,Synthetic Dialysis Unit East
+P034,SYN-FAKE-101258,75,F,100.7,5D,PD,CAPD 4 exchanges/day,Synthetic Home Dialysis Program
+P035,SYN-FAKE-101295,42,M,98.9,3a,none,,Synthetic Dialysis Unit East
+P036,SYN-FAKE-101332,80,F,55.3,3a,none,,Synthetic Dialysis Unit East
+P037,SYN-FAKE-101369,68,F,110.8,4,none,,Synthetic Kidney Clinic North
+P038,SYN-FAKE-101406,78,F,110.3,5,none,,Synthetic Dialysis Unit East
+P039,SYN-FAKE-101443,68,F,76.5,5,none,,Synthetic Kidney Clinic North
+P040,SYN-FAKE-101480,84,M,89.0,5D,HD,MWF,Synthetic Kidney Clinic North
+P041,SYN-FAKE-101517,78,M,84.4,5D,HD,MWF,Synthetic Kidney Clinic North
+P042,SYN-FAKE-101554,81,M,100.1,5D,HD,TTS,Synthetic Kidney Clinic North
+P043,SYN-FAKE-101591,83,F,78.6,3b,none,,Synthetic Renal Ward 4B
+P044,SYN-FAKE-101628,74,M,52.0,3b,none,,Synthetic Kidney Clinic North
+P045,SYN-FAKE-101665,40,M,64.7,5D,HD,TTS,Synthetic Kidney Clinic North
+P046,SYN-FAKE-101702,29,M,80.1,5D,HD,MWF,Synthetic Dialysis Unit East
+P047,SYN-FAKE-101739,50,M,96.9,3a,none,,Synthetic Dialysis Unit East
+P048,SYN-FAKE-101776,89,F,86.7,5D,HD,MWF,Synthetic Dialysis Unit East
+P049,SYN-FAKE-101813,66,F,49.8,3b,none,,Synthetic Renal Ward 4B
+P050,SYN-FAKE-101850,78,M,99.5,5D,HD,MWF,Synthetic Renal Ward 4B

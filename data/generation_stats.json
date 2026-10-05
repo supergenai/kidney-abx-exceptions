@@ -1,0 +1,47 @@
+{
+  "seed": 20261005,
+  "model": "kimi-k3",
+  "planned_requests": 80,
+  "kept": 80,
+  "dropped": [],
+  "first_pass_ok": 80,
+  "ok_after_1_retry": 0,
+  "ok_after_2_retries": 0,
+  "target_fallbacks": 2,
+  "row_counts": {
+    "patients": 50,
+    "labs": 1421,
+    "allergies": 65,
+    "microbiology": 409,
+    "clinical_notes": 164,
+    "exception_requests": 80
+  },
+  "distribution": {
+    "meropenem": {
+      "DENY_ELIGIBLE": 8,
+      "APPROVE_ELIGIBLE": 8,
+      "PHARMACIST_REVIEW": 7,
+      "NEED_INFO": 4
+    },
+    "vancomycin": {
+      "NEED_INFO": 4,
+      "DENY_ELIGIBLE": 8,
+      "APPROVE_ELIGIBLE": 8,
+      "PHARMACIST_REVIEW": 7
+    },
+    "daptomycin": {
+      "APPROVE_ELIGIBLE": 8,
+      "DENY_ELIGIBLE": 7,
+      "NEED_INFO": 4,
+      "PHARMACIST_REVIEW": 7
+    }
+  },
+  "dose_flagged": 20,
+  "kimi_usage": {
+    "cached_calls": 160,
+    "prompt_tokens_orig": 172703,
+    "completion_tokens_orig": 451178
+  },
+  "retry_reasons": [],
+  "elapsed_s": 0.5
+}

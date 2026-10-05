@@ -1,0 +1,20 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: kidney-abx-pg
+    environment:
+      POSTGRES_DB: kidney_abx
+      POSTGRES_USER: kidney_abx
+      POSTGRES_PASSWORD: kidney_abx
+    ports:
+      - "5433:5432"
+    volumes:
+      - kidney_abx_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U kidney_abx -d kidney_abx"]
+      interval: 2s
+      timeout: 3s
+      retries: 30
+
+volumes:
+  kidney_abx_pgdata:

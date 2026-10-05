@@ -1,0 +1,17 @@
+{
+  "justification": "Requesting meropenem. Patient became hypotensive overnight requiring norepinephrine despite 30 mL/kg fluids. Failed 72h of piperacillin-tazobactam.",
+  "notes": [
+    {"note_type": "progress", "author_role": "nephrology", "written_at": "2026-03-02T09:00:00",
+     "body": "68M on HD MWF. Febrile 39.1, rigors after dialysis. Lactate 4.2. Started on vasopressors in ICU. Allergy list reviewed: denies penicillin allergy, tolerated amoxicillin in 2024. No history of C. difficile."},
+    {"note_type": "admission", "author_role": "hospitalist", "written_at": "2026-02-28T14:00:00",
+     "body": "Admitted with tunneled line infection. Empiric piperacillin-tazobactam started 2/28."}
+  ],
+  "variables": {
+    "septic_shock": {"type": "bool", "source": "text", "description": "Patient has septic shock (hypotension requiring vasopressors)."},
+    "prior_pip_tazo_failure": {"type": "bool", "source": "text", "description": "Clinical failure of >=48h piperacillin-tazobactam."},
+    "pcn_allergy_severity": {"type": "enum", "values": ["none", "mild", "moderate", "severe", "anaphylaxis"], "source": "text", "description": "Most severe documented penicillin allergy reaction; 'none' if explicitly no allergy."},
+    "c_diff_history": {"type": "bool", "source": "text", "description": "History of C. difficile infection."},
+    "pregnant": {"type": "bool", "source": "text", "description": "Patient is pregnant."}
+  },
+  "expected": {"septic_shock": true, "prior_pip_tazo_failure": true, "pcn_allergy_severity": "none", "c_diff_history": false, "pregnant": null}
+}

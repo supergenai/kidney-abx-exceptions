@@ -1,0 +1,39 @@
+{
+  "illustrative": true,
+  "disclaimer": "ILLUSTRATIVE ONLY. Synthetic renal dose bands for a prototype; not clinical guidance.",
+  "band_selection": "If patients.dialysis_modality = 'HD' use band 'HD'; if 'PD' use band 'PD'; otherwise use egfr_latest (most recent EGFR lab at or before requested_at) and pick the first band in order where egfr_min <= egfr_latest < egfr_max (egfr_max null = no upper bound).",
+  "dose_check": "Dose OK iff request.dose_mg <= band.max_dose_mg AND frequency_hours[request.frequency] >= band.min_interval_hours. Otherwise flag for pharmacist.",
+  "frequency_hours": {"q6h": 6, "q8h": 8, "q12h": 12, "q24h": 24, "q48h": 48, "post-HD": 48, "q72h": 72, "q5d": 120},
+  "drugs": {
+    "vancomycin": {
+      "note": "Maintenance doses; loading doses out of scope.",
+      "bands": [
+        {"band": "egfr>=50",  "egfr_min": 50, "egfr_max": null, "max_dose_mg": 2000, "frequency": "q12h", "min_interval_hours": 12},
+        {"band": "egfr30-49", "egfr_min": 30, "egfr_max": 50,   "max_dose_mg": 1500, "frequency": "q24h", "min_interval_hours": 24},
+        {"band": "egfr15-29", "egfr_min": 15, "egfr_max": 30,   "max_dose_mg": 1250, "frequency": "q48h", "min_interval_hours": 48},
+        {"band": "egfr<15",   "egfr_min": 0,  "egfr_max": 15,   "max_dose_mg": 1000, "frequency": "q48h", "min_interval_hours": 48},
+        {"band": "HD",        "max_dose_mg": 1000, "frequency": "post-HD", "min_interval_hours": 48},
+        {"band": "PD",        "max_dose_mg": 2000, "frequency": "q5d", "min_interval_hours": 120}
+      ]
+    },
+    "meropenem": {
+      "bands": [
+        {"band": "egfr>=50",  "egfr_min": 50, "egfr_max": null, "max_dose_mg": 1000, "frequency": "q8h",  "min_interval_hours": 8},
+        {"band": "egfr26-49", "egfr_min": 26, "egfr_max": 50,   "max_dose_mg": 1000, "frequency": "q12h", "min_interval_hours": 12},
+        {"band": "egfr10-25", "egfr_min": 10, "egfr_max": 26,   "max_dose_mg": 500,  "frequency": "q12h", "min_interval_hours": 12},
+        {"band": "egfr<10",   "egfr_min": 0,  "egfr_max": 10,   "max_dose_mg": 500,  "frequency": "q24h", "min_interval_hours": 24},
+        {"band": "HD",        "max_dose_mg": 500, "frequency": "q24h", "min_interval_hours": 24},
+        {"band": "PD",        "max_dose_mg": 500, "frequency": "q24h", "min_interval_hours": 24}
+      ]
+    },
+    "daptomycin": {
+      "note": "Weight-based: also check dose_mg <= max_mg_per_kg * patients.weight_kg (whichever cap is lower applies).",
+      "bands": [
+        {"band": "egfr>=30", "egfr_min": 30, "egfr_max": null, "max_dose_mg": 1000, "max_mg_per_kg": 8, "frequency": "q24h", "min_interval_hours": 24},
+        {"band": "egfr<30",  "egfr_min": 0,  "egfr_max": 30,   "max_dose_mg": 1000, "max_mg_per_kg": 8, "frequency": "q48h", "min_interval_hours": 48},
+        {"band": "HD",       "max_dose_mg": 1000, "max_mg_per_kg": 8, "frequency": "post-HD", "min_interval_hours": 48},
+        {"band": "PD",       "max_dose_mg": 1000, "max_mg_per_kg": 8, "frequency": "q48h", "min_interval_hours": 48}
+      ]
+    }
+  }
+}

@@ -1,0 +1,326 @@
+{
+ "rule": "stratified by (tree_id, expected_outcome), sha256(request_id) order, dev fraction 0.6; existing assignments are never changed",
+ "gold_sha256": "35193b045cab479fd55233053dd9c8e8a1716e62fda88a9528c72d114ddc5a39",
+ "assignments": {
+  "R0001": {
+   "split": "test",
+   "sha": "4ee831a1c4d4"
+  },
+  "R0002": {
+   "split": "dev",
+   "sha": "cf93d5dbf908"
+  },
+  "R0003": {
+   "split": "dev",
+   "sha": "9b99079305d8"
+  },
+  "R0004": {
+   "split": "test",
+   "sha": "4ad620a47f91"
+  },
+  "R0005": {
+   "split": "dev",
+   "sha": "a5b55dd21e7e"
+  },
+  "R0006": {
+   "split": "dev",
+   "sha": "4c11a4f509a2"
+  },
+  "R0007": {
+   "split": "dev",
+   "sha": "2aa90d019a86"
+  },
+  "R0008": {
+   "split": "test",
+   "sha": "d779bc08cc6b"
+  },
+  "R0009": {
+   "split": "test",
+   "sha": "85019e269a9b"
+  },
+  "R0010": {
+   "split": "test",
+   "sha": "0b83e426266d"
+  },
+  "R0011": {
+   "split": "dev",
+   "sha": "17dca3f12ef7"
+  },
+  "R0012": {
+   "split": "dev",
+   "sha": "1ffc7d1c43d0"
+  },
+  "R0013": {
+   "split": "dev",
+   "sha": "e05b4bd94444"
+  },
+  "R0014": {
+   "split": "test",
+   "sha": "877eb4144e3e"
+  },
+  "R0015": {
+   "split": "dev",
+   "sha": "304221b238c0"
+  },
+  "R0016": {
+   "split": "dev",
+   "sha": "20210fb3f187"
+  },
+  "R0017": {
+   "split": "dev",
+   "sha": "ecd5d3f27992"
+  },
+  "R0018": {
+   "split": "dev",
+   "sha": "e1ba1b79e8ed"
+  },
+  "R0019": {
+   "split": "test",
+   "sha": "da18387f68cb"
+  },
+  "R0020": {
+   "split": "test",
+   "sha": "efec1feced9c"
+  },
+  "R0021": {
+   "split": "test",
+   "sha": "a2ecdbe054ec"
+  },
+  "R0022": {
+   "split": "dev",
+   "sha": "59fc7aff8683"
+  },
+  "R0023": {
+   "split": "test",
+   "sha": "46dbef57cdc0"
+  },
+  "R0024": {
+   "split": "dev",
+   "sha": "cc6cc9aadad7"
+  },
+  "R0025": {
+   "split": "dev",
+   "sha": "e3c8e5d362ca"
+  },
+  "R0026": {
+   "split": "test",
+   "sha": "fe15c6e6db8d"
+  },
+  "R0027": {
+   "split": "dev",
+   "sha": "5cd96484d7db"
+  },
+  "R0028": {
+   "split": "test",
+   "sha": "68f4b41ba6cd"
+  },
+  "R0029": {
+   "split": "dev",
+   "sha": "789599e1ca9b"
+  },
+  "R0030": {
+   "split": "dev",
+   "sha": "f6775b4e81d8"
+  },
+  "R0031": {
+   "split": "dev",
+   "sha": "c2cd1542112d"
+  },
+  "R0032": {
+   "split": "test",
+   "sha": "41e1d5b23481"
+  },
+  "R0033": {
+   "split": "dev",
+   "sha": "97d41f9fc2c0"
+  },
+  "R0034": {
+   "split": "dev",
+   "sha": "b7636f6e2b88"
+  },
+  "R0035": {
+   "split": "test",
+   "sha": "e319069154b7"
+  },
+  "R0036": {
+   "split": "test",
+   "sha": "38fff1a6f049"
+  },
+  "R0037": {
+   "split": "test",
+   "sha": "91a6e5ea8234"
+  },
+  "R0038": {
+   "split": "dev",
+   "sha": "2d2f44d438f8"
+  },
+  "R0039": {
+   "split": "test",
+   "sha": "321a3eb40354"
+  },
+  "R0040": {
+   "split": "dev",
+   "sha": "20be9f145e57"
+  },
+  "R0041": {
+   "split": "dev",
+   "sha": "fc5d9cadb5d5"
+  },
+  "R0042": {
+   "split": "dev",
+   "sha": "c0ba045feaba"
+  },
+  "R0043": {
+   "split": "test",
+   "sha": "b694200aa3ff"
+  },
+  "R0044": {
+   "split": "dev",
+   "sha": "ca2469e945f4"
+  },
+  "R0045": {
+   "split": "dev",
+   "sha": "d171353bda09"
+  },
+  "R0046": {
+   "split": "dev",
+   "sha": "362aebf67d6b"
+  },
+  "R0047": {
+   "split": "dev",
+   "sha": "6d6ee2344ab1"
+  },
+  "R0048": {
+   "split": "dev",
+   "sha": "3f4d24e1482a"
+  },
+  "R0049": {
+   "split": "dev",
+   "sha": "fef1c2f88df1"
+  },
+  "R0050": {
+   "split": "test",
+   "sha": "1a8e8349d9d0"
+  },
+  "R0051": {
+   "split": "dev",
+   "sha": "36cad2671f8e"
+  },
+  "R0052": {
+   "split": "dev",
+   "sha": "964700044e33"
+  },
+  "R0053": {
+   "split": "test",
+   "sha": "10757314b50d"
+  },
+  "R0054": {
+   "split": "test",
+   "sha": "20673a077da0"
+  },
+  "R0055": {
+   "split": "dev",
+   "sha": "a5affe14c642"
+  },
+  "R0056": {
+   "split": "test",
+   "sha": "7454889d5d86"
+  },
+  "R0057": {
+   "split": "test",
+   "sha": "e826af189f5d"
+  },
+  "R0058": {
+   "split": "dev",
+   "sha": "b4effbc2d1f5"
+  },
+  "R0059": {
+   "split": "dev",
+   "sha": "07f5bcab1039"
+  },
+  "R0060": {
+   "split": "dev",
+   "sha": "de6c3757bc56"
+  },
+  "R0061": {
+   "split": "test",
+   "sha": "3a1d355071b9"
+  },
+  "R0062": {
+   "split": "dev",
+   "sha": "d01f4ca9706c"
+  },
+  "R0063": {
+   "split": "test",
+   "sha": "5721d860a19e"
+  },
+  "R0064": {
+   "split": "dev",
+   "sha": "f327c0fc5f0b"
+  },
+  "R0065": {
+   "split": "dev",
+   "sha": "1867d7d36383"
+  },
+  "R0066": {
+   "split": "dev",
+   "sha": "361386c56c57"
+  },
+  "R0067": {
+   "split": "test",
+   "sha": "e041af0ccc32"
+  },
+  "R0068": {
+   "split": "test",
+   "sha": "fa9dd1482953"
+  },
+  "R0069": {
+   "split": "test",
+   "sha": "96592d60f857"
+  },
+  "R0070": {
+   "split": "dev",
+   "sha": "e5ac6ddd995a"
+  },
+  "R0071": {
+   "split": "dev",
+   "sha": "37ed09310fff"
+  },
+  "R0072": {
+   "split": "test",
+   "sha": "c525e8227f63"
+  },
+  "R0073": {
+   "split": "dev",
+   "sha": "c51734c70ad7"
+  },
+  "R0074": {
+   "split": "dev",
+   "sha": "441ee8ffb839"
+  },
+  "R0075": {
+   "split": "test",
+   "sha": "181fa251f1ff"
+  },
+  "R0076": {
+   "split": "test",
+   "sha": "241a8a5ed1ae"
+  },
+  "R0077": {
+   "split": "test",
+   "sha": "f75195e6ee4f"
+  },
+  "R0078": {
+   "split": "test",
+   "sha": "b74126f1a698"
+  },
+  "R0079": {
+   "split": "dev",
+   "sha": "161b854a195c"
+  },
+  "R0080": {
+   "split": "dev",
+   "sha": "3d460ed78606"
+  }
+ }
+}

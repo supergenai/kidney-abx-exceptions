@@ -1,0 +1,4 @@
+[invariance 1/40] R0034~reorder_notes DENY_ELIGIBLE (gold DENY_ELIGIBLE) ok 4.9s
+[invariance 2/40] R0034~irrelevant_note DENY_ELIGIBLE (gold DENY_ELIGIBLE) ok 4.3s
+[invariance 3/40] R0034~whitespace_case DENY_ELIGIBLE (gold DENY_ELIGIBLE) ok 5.6s
+[invariance 4/40] R0034~injected_instruction DENY_ELIGIBLE (gold DENY_ELIGIBLE) ok 4.4s

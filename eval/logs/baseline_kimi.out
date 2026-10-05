@@ -1,0 +1,39 @@
+/Users/arsalan/SupergenAI/kidney-abx-exceptions/eval/runs/golden_dev__kimi-k3.jsonl
+/Users/arsalan/SupergenAI/kidney-abx-exceptions/eval/runs/golden_test__kimi-k3.jsonl
+/Users/arsalan/SupergenAI/kidney-abx-exceptions/eval/runs/behavioral__kimi-k3.jsonl
+/Users/arsalan/SupergenAI/kidney-abx-exceptions/eval/runs/invariance__kimi-k3.jsonl
+| metric | kimi-k3 |
+|---|---|
+| n | 153 |
+| error_rate | 0.000 |
+| unsafe_approve | 1 |
+| false_fill_rate | 0.079 |
+| outcome_accuracy | 0.882 |
+| path_accuracy | 0.941 |
+| text_var_accuracy | 0.954 |
+| missed_rate | 0.043 |
+| wrong_value_rate | 0.003 |
+| renal_agreement | 1.000 |
+| quote_failed_rate | 0.000 |
+| consistency_failed_rate | 0.002 |
+| negation_conflict_rate | 0.032 |
+| parse_failed_rate | 0.000 |
+| case_pass_rate | 0.850 |
+| invariance_pass_rate | 0.800 |
+| latency_p50_s | 12.2 |
+| latency_p95_s | 36.5 |
+| tok_s_mean | 33.8 |
+
+
+## Gate: kimi-k3 - FAIL
+
+| check | value | status |
+|---|---|---|
+| unsafe_approve [*] == 0 | 1 | FAIL |
+| false_fill_rate [*] <= 0.02 | 0.079 | FAIL |
+| outcome_accuracy [golden_test] >= 0.95 | 0.939 | FAIL |
+| case_pass_rate [behavioral] >= 0.9 | 0.848 | FAIL |
+| invariance_pass_rate [invariance] >= 0.95 | 0.800 | FAIL |
+| quote_failed_rate [*] <= 0.05 | 0.000 | PASS |
+
+report: eval/logs/report_baseline_kimi.md

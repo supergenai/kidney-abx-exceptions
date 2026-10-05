@@ -1,0 +1,31 @@
+{
+  "tree_id": "meropenem_v1",
+  "drug": "meropenem",
+  "illustrative": true,
+  "disclaimer": "ILLUSTRATIVE ONLY. Synthetic stewardship logic for a prototype; not clinical guidance.",
+  "variables": {
+    "carbapenem_resistant": {"type": "bool", "source": "structured", "description": "Any isolate in the 14 days up to requested_at tests R to meropenem, ertapenem or imipenem."},
+    "esbl_isolated": {"type": "bool", "source": "structured", "description": "ESBL-producing organism isolated from any specimen in the 14 days up to requested_at."},
+    "pcn_allergy_severity": {"type": "enum", "values": ["none", "mild", "moderate", "severe", "anaphylaxis"], "source": "structured_or_text", "description": "Highest severity of penicillin-class allergy. Structured from allergies table if a penicillin-class row exists; otherwise from notes (e.g. 'NKDA', 'no PCN allergy', 'PCN -> anaphylaxis')."},
+    "septic_shock": {"type": "bool", "source": "text", "description": "Current episode: sepsis with vasopressor requirement to maintain MAP >= 65 despite fluid resuscitation."},
+    "failed_first_line_therapy": {"type": "bool", "source": "text", "description": "Current episode: >= 48h of a first-line agent (e.g. piperacillin-tazobactam, cefepime, ceftriaxone) with clinical worsening or no improvement."},
+    "source_control_achieved": {"type": "bool", "source": "text", "description": "Current episode: the infection source has been controlled (abscess drained, infected catheter removed, obstruction relieved). False if a source needing control is pending/declined."}
+  },
+  "root": "n1",
+  "nodes": {
+    "n1": {"label": "Carbapenem-resistant isolate?", "var": "carbapenem_resistant", "op": "==", "value": true, "yes": "PHARMACIST_REVIEW", "no": "n2"},
+    "n2": {"label": "ESBL isolated (14d)?", "var": "esbl_isolated", "op": "==", "value": true, "yes": "n3", "no": "n5"},
+    "n3": {"label": "ESBL + septic shock?", "var": "septic_shock", "op": "==", "value": true, "yes": "APPROVE_ELIGIBLE", "no": "n4"},
+    "n4": {"label": "ESBL, stable: source controlled?", "var": "source_control_achieved", "op": "==", "value": true, "yes": "DENY_ELIGIBLE", "no": "APPROVE_ELIGIBLE"},
+    "n5": {"label": "Failed first-line therapy?", "var": "failed_first_line_therapy", "op": "==", "value": true, "yes": "n6", "no": "n7"},
+    "n6": {"label": "Failed first-line + septic shock?", "var": "septic_shock", "op": "==", "value": true, "yes": "APPROVE_ELIGIBLE", "no": "PHARMACIST_REVIEW"},
+    "n7": {"label": "Severe penicillin allergy?", "var": "pcn_allergy_severity", "op": "in", "value": ["severe", "anaphylaxis"], "yes": "PHARMACIST_REVIEW", "no": "n8"},
+    "n8": {"label": "Septic shock (no failure, no allergy)?", "var": "septic_shock", "op": "==", "value": true, "yes": "PHARMACIST_REVIEW", "no": "DENY_ELIGIBLE"}
+  },
+  "outcomes": {
+    "APPROVE_ELIGIBLE": "Criteria for restricted meropenem met (ESBL with shock or uncontrolled source; failed first-line therapy with shock).",
+    "DENY_ELIGIBLE": "Criteria not met: ESBL with controlled source and stable (consider ertapenem step-down) or no ESBL/failure/allergy/shock (first-line agent preferred). Routes to pharmacist, never auto-denied.",
+    "PHARMACIST_REVIEW": "Carbapenem resistance (ID consult), failed first-line without shock, severe penicillin allergy (cross-reactivity/aztreonam decision), or empiric shock without failure.",
+    "NEED_INFO": "A variable needed on the decision path could not be determined from the record."
+  }
+}

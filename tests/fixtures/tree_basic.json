@@ -1,0 +1,17 @@
+{
+  "tree_id": "fixture_v1", "drug": "fixturemycin", "illustrative": true,
+  "variables": {
+    "esbl_isolated": {"type": "bool", "source": "structured", "description": "ESBL organism isolated"},
+    "septic_shock": {"type": "bool", "source": "text", "description": "Septic shock"},
+    "pcn_allergy_severity": {"type": "enum", "values": ["none", "mild", "moderate", "severe", "anaphylaxis"], "source": "structured_or_text", "description": "PCN allergy"},
+    "egfr": {"type": "number", "source": "structured", "description": "eGFR"}
+  },
+  "root": "n1",
+  "nodes": {
+    "n1": {"var": "esbl_isolated", "op": "==", "value": true, "yes": "APPROVE_ELIGIBLE", "no": "n2"},
+    "n2": {"var": "septic_shock", "op": "==", "value": true, "yes": "n3", "no": "DENY_ELIGIBLE"},
+    "n3": {"var": "pcn_allergy_severity", "op": "in", "value": ["severe", "anaphylaxis"], "yes": "APPROVE_ELIGIBLE", "no": "n4"},
+    "n4": {"var": "egfr", "op": "<", "value": 15, "yes": "PHARMACIST_REVIEW", "no": "DENY_ELIGIBLE"}
+  },
+  "outcomes": {"APPROVE_ELIGIBLE": "a", "DENY_ELIGIBLE": "d", "PHARMACIST_REVIEW": "p"}
+}

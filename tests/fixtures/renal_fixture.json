@@ -1,0 +1,20 @@
+{
+  "illustrative": true,
+  "frequency_hours": {"q8h": 8, "q12h": 12, "q24h": 24, "q48h": 48, "post-HD": 48},
+  "drugs": {
+    "fixturemycin": {
+      "bands": [
+        {"band": "egfr>=50", "egfr_min": 50, "egfr_max": null, "max_dose_mg": 1000, "frequency": "q8h", "min_interval_hours": 8},
+        {"band": "egfr10-49", "egfr_min": 10, "egfr_max": 50, "max_dose_mg": 500, "frequency": "q12h", "min_interval_hours": 12},
+        {"band": "egfr<10", "egfr_min": 0, "egfr_max": 10, "max_dose_mg": 500, "frequency": "q24h", "min_interval_hours": 24},
+        {"band": "HD", "max_dose_mg": 1000, "frequency": "post-HD", "min_interval_hours": 48},
+        {"band": "PD", "max_dose_mg": 500, "frequency": "q24h", "min_interval_hours": 24}
+      ]
+    },
+    "weightomycin": {
+      "bands": [
+        {"band": "egfr>=0", "egfr_min": 0, "egfr_max": null, "max_dose_mg": 1000, "max_mg_per_kg": 8, "frequency": "q24h", "min_interval_hours": 24}
+      ]
+    }
+  }
+}

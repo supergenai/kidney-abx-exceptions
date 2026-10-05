@@ -1,0 +1,410 @@
+id,patient_id,specimen,collected_at,organism,antibiotic,interpretation,mic
+1,P015,Blood culture,2026-01-25 07:09:54.19422+00,,,,
+2,P015,Urine culture,2026-01-30 13:41:50.018414+00,Escherichia coli (ESBL),ceftriaxone,R,>=64
+3,P015,Urine culture,2026-01-30 13:41:50.018414+00,Escherichia coli (ESBL),cefepime,R,>=32
+4,P015,Urine culture,2026-01-30 13:41:50.018414+00,Escherichia coli (ESBL),piperacillin-tazobactam,I,16
+5,P015,Urine culture,2026-01-30 13:41:50.018414+00,Escherichia coli (ESBL),ertapenem,S,<=0.5
+6,P015,Urine culture,2026-01-30 13:41:50.018414+00,Escherichia coli (ESBL),meropenem,S,<=0.25
+7,P015,Urine culture,2026-01-30 13:41:50.018414+00,Escherichia coli (ESBL),ciprofloxacin,R,>=4
+8,P035,Urine culture,2026-01-26 06:17:54.436012+00,Enterococcus faecalis,ampicillin,S,<=2
+9,P035,Urine culture,2026-01-26 06:17:54.436012+00,Enterococcus faecalis,vancomycin,S,1
+10,P034,Nares swab,2025-12-17 05:54:04.118306+00,Escherichia coli (ESBL),ceftriaxone,R,>=64
+11,P034,Nares swab,2025-12-17 05:54:04.118306+00,Escherichia coli (ESBL),meropenem,S,<=0.25
+12,P034,Blood culture,2026-02-01 20:32:40.578679+00,,,,
+13,P034,Urine culture,2026-02-06 05:37:29.377617+00,Escherichia coli,ceftriaxone,S,<=1
+14,P034,Urine culture,2026-02-06 05:37:29.377617+00,Escherichia coli,piperacillin-tazobactam,S,<=4
+15,P034,Urine culture,2026-02-06 05:37:29.377617+00,Escherichia coli,meropenem,S,<=0.25
+16,P042,Urine culture,2026-02-11 09:46:15.372563+00,Enterococcus faecium (VRE),vancomycin,R,>=32
+17,P042,Urine culture,2026-02-11 09:46:15.372563+00,Enterococcus faecium (VRE),ampicillin,R,>=32
+18,P042,Urine culture,2026-02-11 09:46:15.372563+00,Enterococcus faecium (VRE),linezolid,S,2
+19,P042,Urine culture,2026-02-11 09:46:15.372563+00,Enterococcus faecium (VRE),daptomycin,S,2
+20,P033,Blood culture,2026-02-10 17:27:36.012574+00,,,,
+21,P033,Sputum,2026-02-17 20:33:41.136424+00,Enterococcus faecium (VRE),vancomycin,R,>=32
+22,P033,Sputum,2026-02-17 20:33:41.136424+00,Enterococcus faecium (VRE),ampicillin,R,>=32
+23,P033,Sputum,2026-02-17 20:33:41.136424+00,Enterococcus faecium (VRE),linezolid,S,2
+24,P033,Sputum,2026-02-17 20:33:41.136424+00,Enterococcus faecium (VRE),daptomycin,S,2
+25,P020,Urine culture,2026-02-13 05:14:11.228819+00,Escherichia coli,ceftriaxone,S,<=1
+26,P020,Urine culture,2026-02-13 05:14:11.228819+00,Escherichia coli,piperacillin-tazobactam,S,<=4
+27,P020,Urine culture,2026-02-13 05:14:11.228819+00,Escherichia coli,meropenem,S,<=0.25
+28,P020,Blood culture,2026-02-18 03:55:19.972894+00,Staphylococcus aureus (MRSA),oxacillin,R,>=4
+29,P020,Blood culture,2026-02-18 03:55:19.972894+00,Staphylococcus aureus (MRSA),vancomycin,I,4
+30,P020,Blood culture,2026-02-18 03:55:19.972894+00,Staphylococcus aureus (MRSA),daptomycin,S,0.5
+31,P020,Blood culture,2026-02-18 03:55:19.972894+00,Staphylococcus aureus (MRSA),linezolid,S,2
+32,P020,Blood culture,2026-02-18 03:55:19.972894+00,Staphylococcus aureus (MRSA),trimethoprim-sulfamethoxazole,S,<=0.5/9.5
+33,P012,Blood culture,2026-02-21 20:40:56.594127+00,,,,
+34,P012,Urine culture,2026-02-22 13:37:58.86452+00,Escherichia coli,ceftriaxone,S,<=1
+35,P012,Urine culture,2026-02-22 13:37:58.86452+00,Escherichia coli,piperacillin-tazobactam,S,<=4
+36,P012,Urine culture,2026-02-22 13:37:58.86452+00,Escherichia coli,meropenem,S,<=0.25
+37,P041,Blood culture,2026-02-24 02:07:07.854801+00,,,,
+38,P017,Blood culture,2026-02-22 16:08:02.757138+00,Escherichia coli (ESBL),ceftriaxone,R,>=64
+39,P017,Blood culture,2026-02-22 16:08:02.757138+00,Escherichia coli (ESBL),cefepime,R,>=32
+40,P017,Blood culture,2026-02-22 16:08:02.757138+00,Escherichia coli (ESBL),piperacillin-tazobactam,I,16
+41,P017,Blood culture,2026-02-22 16:08:02.757138+00,Escherichia coli (ESBL),ertapenem,S,<=0.5
+42,P017,Blood culture,2026-02-22 16:08:02.757138+00,Escherichia coli (ESBL),meropenem,S,<=0.25
+43,P017,Blood culture,2026-02-22 16:08:02.757138+00,Escherichia coli (ESBL),ciprofloxacin,R,>=4
+44,P021,Blood culture,2026-02-25 20:02:57.576401+00,Staphylococcus aureus (MSSA),oxacillin,S,0.5
+45,P021,Blood culture,2026-02-25 20:02:57.576401+00,Staphylococcus aureus (MSSA),cefazolin,S,<=2
+46,P021,Blood culture,2026-02-25 20:02:57.576401+00,Staphylococcus aureus (MSSA),vancomycin,S,1
+47,P013,Blood culture,2026-02-18 19:41:33.105766+00,,,,
+48,P005,Wound swab,2026-02-25 19:46:13.628281+00,Staphylococcus aureus (MRSA),oxacillin,R,>=4
+49,P005,Wound swab,2026-02-25 19:46:13.628281+00,Staphylococcus aureus (MRSA),vancomycin,S,0.5
+50,P005,Wound swab,2026-02-25 19:46:13.628281+00,Staphylococcus aureus (MRSA),daptomycin,S,0.5
+51,P005,Wound swab,2026-02-25 19:46:13.628281+00,Staphylococcus aureus (MRSA),linezolid,S,2
+52,P005,Wound swab,2026-02-25 19:46:13.628281+00,Staphylococcus aureus (MRSA),trimethoprim-sulfamethoxazole,S,<=0.5/9.5
+53,P047,Blood culture,2025-12-04 14:35:49.041467+00,Staphylococcus aureus (MRSA),oxacillin,R,>=4
+54,P047,Blood culture,2025-12-04 14:35:49.041467+00,Staphylococcus aureus (MRSA),vancomycin,S,1
+55,P047,Urine culture,2026-02-20 01:28:12.769816+00,Enterococcus faecalis,ampicillin,S,<=2
+56,P047,Urine culture,2026-02-20 01:28:12.769816+00,Enterococcus faecalis,vancomycin,S,1
+57,P047,Blood culture,2026-02-24 21:18:03.267032+00,Staphylococcus aureus (MSSA),oxacillin,S,0.5
+58,P047,Blood culture,2026-02-24 21:18:03.267032+00,Staphylococcus aureus (MSSA),cefazolin,S,<=2
+59,P047,Blood culture,2026-02-24 21:18:03.267032+00,Staphylococcus aureus (MSSA),vancomycin,S,1
+60,P047,Urine culture,2026-02-27 02:30:17.325659+00,Escherichia coli (ESBL),ceftriaxone,R,>=64
+61,P047,Urine culture,2026-02-27 02:30:17.325659+00,Escherichia coli (ESBL),cefepime,R,>=32
+62,P047,Urine culture,2026-02-27 02:30:17.325659+00,Escherichia coli (ESBL),piperacillin-tazobactam,S,16
+63,P047,Urine culture,2026-02-27 02:30:17.325659+00,Escherichia coli (ESBL),ertapenem,S,<=0.5
+64,P047,Urine culture,2026-02-27 02:30:17.325659+00,Escherichia coli (ESBL),meropenem,S,<=0.25
+65,P047,Urine culture,2026-02-27 02:30:17.325659+00,Escherichia coli (ESBL),ciprofloxacin,R,>=4
+66,P025,Blood culture,2026-02-27 07:53:12.270716+00,Staphylococcus aureus (MSSA),oxacillin,S,0.5
+67,P025,Blood culture,2026-02-27 07:53:12.270716+00,Staphylococcus aureus (MSSA),cefazolin,S,<=2
+68,P025,Blood culture,2026-02-27 07:53:12.270716+00,Staphylococcus aureus (MSSA),vancomycin,S,1
+69,P025,Blood culture,2026-03-03 04:04:46.852777+00,,,,
+70,P030,Urine culture,2026-02-24 19:33:12.569076+00,Escherichia coli (ESBL),ceftriaxone,R,>=64
+71,P030,Urine culture,2026-02-24 19:33:12.569076+00,Escherichia coli (ESBL),cefepime,R,>=32
+72,P030,Urine culture,2026-02-24 19:33:12.569076+00,Escherichia coli (ESBL),piperacillin-tazobactam,I,16
+73,P030,Urine culture,2026-02-24 19:33:12.569076+00,Escherichia coli (ESBL),ertapenem,S,<=0.5
+74,P030,Urine culture,2026-02-24 19:33:12.569076+00,Escherichia coli (ESBL),meropenem,S,<=0.25
+75,P030,Urine culture,2026-02-24 19:33:12.569076+00,Escherichia coli (ESBL),ciprofloxacin,R,>=4
+76,P006,Nares swab,2026-01-22 18:04:35.015817+00,Enterococcus faecium (VRE),vancomycin,R,>=32
+77,P006,Nares swab,2026-01-22 18:04:35.015817+00,Enterococcus faecium (VRE),daptomycin,S,2
+78,P006,Blood culture,2026-03-01 09:58:11.472015+00,Klebsiella pneumoniae (CRE),ceftriaxone,R,>=64
+79,P006,Blood culture,2026-03-01 09:58:11.472015+00,Klebsiella pneumoniae (CRE),meropenem,R,>=16
+80,P006,Blood culture,2026-03-01 09:58:11.472015+00,Klebsiella pneumoniae (CRE),ertapenem,R,>=8
+81,P006,Blood culture,2026-03-01 09:58:11.472015+00,Klebsiella pneumoniae (CRE),ceftazidime-avibactam,S,2
+82,P006,Blood culture,2026-03-04 07:23:01.410239+00,,,,
+83,P031,Urine culture,2026-03-03 14:33:29.468412+00,Escherichia coli,ceftriaxone,S,<=1
+84,P031,Urine culture,2026-03-03 14:33:29.468412+00,Escherichia coli,piperacillin-tazobactam,S,<=4
+85,P031,Urine culture,2026-03-03 14:33:29.468412+00,Escherichia coli,meropenem,S,<=0.25
+86,P031,Blood culture,2026-03-06 19:55:24.562641+00,,,,
+87,P003,Nares swab,2026-02-09 12:31:05.635672+00,Staphylococcus aureus (MRSA),oxacillin,R,>=4
+88,P003,Nares swab,2026-02-09 12:31:05.635672+00,Staphylococcus aureus (MRSA),vancomycin,S,1
+89,P003,Blood culture,2026-03-10 09:35:24.164927+00,Staphylococcus aureus (MRSA),oxacillin,R,>=4
+90,P003,Blood culture,2026-03-10 09:35:24.164927+00,Staphylococcus aureus (MRSA),vancomycin,S,0.5
+91,P003,Blood culture,2026-03-10 09:35:24.164927+00,Staphylococcus aureus (MRSA),daptomycin,S,0.5
+92,P003,Blood culture,2026-03-10 09:35:24.164927+00,Staphylococcus aureus (MRSA),linezolid,S,2
+93,P003,Blood culture,2026-03-10 09:35:24.164927+00,Staphylococcus aureus (MRSA),trimethoprim-sulfamethoxazole,S,<=0.5/9.5
+94,P022,Blood culture,2026-03-05 14:57:26.295603+00,,,,
+95,P022,Urine culture,2026-03-07 22:02:07.513674+00,Enterococcus faecalis,ampicillin,S,<=2
+96,P022,Urine culture,2026-03-07 22:02:07.513674+00,Enterococcus faecalis,vancomycin,S,1
+97,P022,Blood culture,2026-03-09 06:45:47.183968+00,Staphylococcus aureus (MSSA),oxacillin,S,0.5
+98,P022,Blood culture,2026-03-09 06:45:47.183968+00,Staphylococcus aureus (MSSA),cefazolin,S,<=2
+99,P022,Blood culture,2026-03-09 06:45:47.183968+00,Staphylococcus aureus (MSSA),vancomycin,S,1
+100,P022,Urine culture,2026-03-10 22:07:09.053199+00,Escherichia coli,ceftriaxone,S,<=1
+101,P022,Urine culture,2026-03-10 22:07:09.053199+00,Escherichia coli,piperacillin-tazobactam,S,<=4
+102,P022,Urine culture,2026-03-10 22:07:09.053199+00,Escherichia coli,meropenem,S,<=0.25
+103,P008,Urine culture,2026-03-14 21:42:41.639081+00,Escherichia coli,ceftriaxone,S,<=1
+104,P008,Urine culture,2026-03-14 21:42:41.639081+00,Escherichia coli,piperacillin-tazobactam,S,<=4
+105,P008,Urine culture,2026-03-14 21:42:41.639081+00,Escherichia coli,meropenem,S,<=0.25
+106,P024,Urine culture,2026-03-14 22:11:11.54368+00,Enterococcus faecalis,ampicillin,S,<=2
+107,P024,Urine culture,2026-03-14 22:11:11.54368+00,Enterococcus faecalis,vancomycin,S,1
+108,P024,Blood culture,2026-03-16 16:10:21.589759+00,,,,
+109,P024,Blood culture,2026-03-18 08:55:42.100192+00,Staphylococcus aureus (MSSA),oxacillin,S,0.5
+110,P024,Blood culture,2026-03-18 08:55:42.100192+00,Staphylococcus aureus (MSSA),cefazolin,S,<=2
+111,P024,Blood culture,2026-03-18 08:55:42.100192+00,Staphylococcus aureus (MSSA),vancomycin,S,1
+112,P046,Blood culture,2026-03-12 19:39:33.756159+00,,,,
+113,P046,Urine culture,2026-03-17 16:52:24.77526+00,Escherichia coli,ceftriaxone,S,<=1
+114,P046,Urine culture,2026-03-17 16:52:24.77526+00,Escherichia coli,piperacillin-tazobactam,S,<=4
+115,P046,Urine culture,2026-03-17 16:52:24.77526+00,Escherichia coli,meropenem,S,<=0.25
+116,P046,Urine culture,2026-03-20 10:53:31.795596+00,Enterococcus faecalis,ampicillin,S,<=2
+117,P046,Urine culture,2026-03-20 10:53:31.795596+00,Enterococcus faecalis,vancomycin,S,1
+118,P014,Blood culture,2026-03-19 10:48:20.691946+00,,,,
+119,P014,Blood culture,2026-03-22 23:16:58.663617+00,Staphylococcus aureus (MRSA),oxacillin,R,>=4
+120,P014,Blood culture,2026-03-22 23:16:58.663617+00,Staphylococcus aureus (MRSA),vancomycin,S,0.5
+121,P014,Blood culture,2026-03-22 23:16:58.663617+00,Staphylococcus aureus (MRSA),daptomycin,S,0.5
+122,P014,Blood culture,2026-03-22 23:16:58.663617+00,Staphylococcus aureus (MRSA),linezolid,S,2
+123,P014,Blood culture,2026-03-22 23:16:58.663617+00,Staphylococcus aureus (MRSA),trimethoprim-sulfamethoxazole,S,<=0.5/9.5
+124,P027,Blood culture,2026-03-17 23:26:30.394715+00,Staphylococcus aureus (MSSA),oxacillin,S,0.5
+125,P027,Blood culture,2026-03-17 23:26:30.394715+00,Staphylococcus aureus (MSSA),cefazolin,S,<=2
+126,P027,Blood culture,2026-03-17 23:26:30.394715+00,Staphylococcus aureus (MSSA),vancomycin,S,1
+127,P027,Urine culture,2026-03-18 19:51:01.859959+00,Escherichia coli,ceftriaxone,S,<=1
+128,P027,Urine culture,2026-03-18 19:51:01.859959+00,Escherichia coli,piperacillin-tazobactam,S,<=4
+129,P027,Urine culture,2026-03-18 19:51:01.859959+00,Escherichia coli,meropenem,S,<=0.25
+130,P035,Blood culture,2026-03-21 23:03:06.178066+00,Escherichia coli (ESBL),ceftriaxone,R,>=64
+131,P035,Blood culture,2026-03-21 23:03:06.178066+00,Escherichia coli (ESBL),cefepime,R,>=32
+132,P035,Blood culture,2026-03-21 23:03:06.178066+00,Escherichia coli (ESBL),piperacillin-tazobactam,I,16
+133,P035,Blood culture,2026-03-21 23:03:06.178066+00,Escherichia coli (ESBL),ertapenem,S,<=0.5
+134,P035,Blood culture,2026-03-21 23:03:06.178066+00,Escherichia coli (ESBL),meropenem,S,<=0.25
+135,P035,Blood culture,2026-03-21 23:03:06.178066+00,Escherichia coli (ESBL),ciprofloxacin,R,>=4
+136,P009,Urine culture,2026-03-22 18:51:10.854647+00,Escherichia coli (ESBL),ceftriaxone,R,>=64
+137,P009,Urine culture,2026-03-22 18:51:10.854647+00,Escherichia coli (ESBL),cefepime,R,>=32
+138,P009,Urine culture,2026-03-22 18:51:10.854647+00,Escherichia coli (ESBL),piperacillin-tazobactam,S,16
+139,P009,Urine culture,2026-03-22 18:51:10.854647+00,Escherichia coli (ESBL),ertapenem,S,<=0.5
+140,P009,Urine culture,2026-03-22 18:51:10.854647+00,Escherichia coli (ESBL),meropenem,S,<=0.25
+141,P009,Urine culture,2026-03-22 18:51:10.854647+00,Escherichia coli (ESBL),ciprofloxacin,R,>=4
+142,P009,Blood culture,2026-03-25 16:30:28.743501+00,Staphylococcus aureus (MSSA),oxacillin,S,0.5
+143,P009,Blood culture,2026-03-25 16:30:28.743501+00,Staphylococcus aureus (MSSA),cefazolin,S,<=2
+144,P009,Blood culture,2026-03-25 16:30:28.743501+00,Staphylococcus aureus (MSSA),vancomycin,S,1
+145,P033,Urine culture,2026-03-20 07:01:13.231105+00,Escherichia coli,ceftriaxone,S,<=1
+146,P033,Urine culture,2026-03-20 07:01:13.231105+00,Escherichia coli,piperacillin-tazobactam,S,<=4
+147,P033,Urine culture,2026-03-20 07:01:13.231105+00,Escherichia coli,meropenem,S,<=0.25
+148,P033,Urine culture,2026-03-22 00:53:02.922002+00,Enterococcus faecalis,ampicillin,S,<=2
+149,P033,Urine culture,2026-03-22 00:53:02.922002+00,Enterococcus faecalis,vancomycin,S,1
+150,P036,Urine culture,2026-03-24 15:36:49.957202+00,Enterococcus faecalis,ampicillin,S,<=2
+151,P036,Urine culture,2026-03-24 15:36:49.957202+00,Enterococcus faecalis,vancomycin,S,1
+152,P007,Blood culture,2026-03-21 14:56:27.415195+00,Staphylococcus aureus (MSSA),oxacillin,S,0.5
+153,P007,Blood culture,2026-03-21 14:56:27.415195+00,Staphylococcus aureus (MSSA),cefazolin,S,<=2
+154,P007,Blood culture,2026-03-21 14:56:27.415195+00,Staphylococcus aureus (MSSA),vancomycin,S,1
+155,P043,Urine culture,2026-03-27 18:51:02.517891+00,Escherichia coli,ceftriaxone,S,<=1
+156,P043,Urine culture,2026-03-27 18:51:02.517891+00,Escherichia coli,piperacillin-tazobactam,S,<=4
+157,P043,Urine culture,2026-03-27 18:51:02.517891+00,Escherichia coli,meropenem,S,<=0.25
+158,P043,Blood culture,2026-03-31 09:21:44.284745+00,,,,
+159,P043,Blood culture,2026-03-31 23:12:52.599014+00,Enterococcus faecium (VRE),vancomycin,R,>=32
+160,P043,Blood culture,2026-03-31 23:12:52.599014+00,Enterococcus faecium (VRE),ampicillin,R,>=32
+161,P043,Blood culture,2026-03-31 23:12:52.599014+00,Enterococcus faecium (VRE),linezolid,S,2
+162,P043,Blood culture,2026-03-31 23:12:52.599014+00,Enterococcus faecium (VRE),daptomycin,R,8
+163,P016,Blood culture,2026-03-28 02:53:49.838861+00,,,,
+164,P016,Blood culture,2026-03-28 18:15:22.022548+00,Enterococcus faecium (VRE),vancomycin,R,>=32
+165,P016,Blood culture,2026-03-28 18:15:22.022548+00,Enterococcus faecium (VRE),ampicillin,R,>=32
+166,P016,Blood culture,2026-03-28 18:15:22.022548+00,Enterococcus faecium (VRE),linezolid,S,2
+167,P016,Blood culture,2026-03-28 18:15:22.022548+00,Enterococcus faecium (VRE),daptomycin,S,2
+168,P028,Blood culture,2026-04-05 07:12:30.868494+00,,,,
+169,P028,Sputum,2026-04-07 12:39:49.645238+00,Enterococcus faecium (VRE),vancomycin,R,>=32
+170,P028,Sputum,2026-04-07 12:39:49.645238+00,Enterococcus faecium (VRE),ampicillin,R,>=32
+171,P028,Sputum,2026-04-07 12:39:49.645238+00,Enterococcus faecium (VRE),linezolid,S,2
+172,P028,Sputum,2026-04-07 12:39:49.645238+00,Enterococcus faecium (VRE),daptomycin,R,8
+173,P019,Wound swab,2026-04-07 07:41:44.087989+00,Staphylococcus aureus (MRSA),oxacillin,R,>=4
+174,P019,Wound swab,2026-04-07 07:41:44.087989+00,Staphylococcus aureus (MRSA),vancomycin,S,1
+175,P019,Wound swab,2026-04-07 07:41:44.087989+00,Staphylococcus aureus (MRSA),daptomycin,S,0.5
+176,P019,Wound swab,2026-04-07 07:41:44.087989+00,Staphylococcus aureus (MRSA),linezolid,S,2
+177,P019,Wound swab,2026-04-07 07:41:44.087989+00,Staphylococcus aureus (MRSA),trimethoprim-sulfamethoxazole,S,<=0.5/9.5
+178,P019,Urine culture,2026-04-11 09:42:51.437112+00,Enterococcus faecalis,ampicillin,S,<=2
+179,P019,Urine culture,2026-04-11 09:42:51.437112+00,Enterococcus faecalis,vancomycin,S,1
+180,P019,Blood culture,2026-04-12 18:06:35.752304+00,,,,
+181,P005,Wound swab,2026-04-09 09:38:32.045433+00,Staphylococcus aureus (MRSA),oxacillin,R,>=4
+182,P005,Wound swab,2026-04-09 09:38:32.045433+00,Staphylococcus aureus (MRSA),vancomycin,I,4
+183,P005,Wound swab,2026-04-09 09:38:32.045433+00,Staphylococcus aureus (MRSA),daptomycin,S,0.5
+184,P005,Wound swab,2026-04-09 09:38:32.045433+00,Staphylococcus aureus (MRSA),linezolid,S,2
+185,P005,Wound swab,2026-04-09 09:38:32.045433+00,Staphylococcus aureus (MRSA),trimethoprim-sulfamethoxazole,S,<=0.5/9.5
+186,P005,Urine culture,2026-04-14 06:50:29.637773+00,Escherichia coli,ceftriaxone,S,<=1
+187,P005,Urine culture,2026-04-14 06:50:29.637773+00,Escherichia coli,piperacillin-tazobactam,S,<=4
+188,P005,Urine culture,2026-04-14 06:50:29.637773+00,Escherichia coli,meropenem,S,<=0.25
+189,P015,Blood culture,2026-04-15 02:59:49.932603+00,Staphylococcus aureus (MSSA),oxacillin,S,0.5
+190,P015,Blood culture,2026-04-15 02:59:49.932603+00,Staphylococcus aureus (MSSA),cefazolin,S,<=2
+191,P015,Blood culture,2026-04-15 02:59:49.932603+00,Staphylococcus aureus (MSSA),vancomycin,S,1
+192,P010,Blood culture,2026-04-17 15:32:10.272695+00,Escherichia coli (ESBL),ceftriaxone,R,>=64
+193,P010,Blood culture,2026-04-17 15:32:10.272695+00,Escherichia coli (ESBL),cefepime,R,>=32
+194,P010,Blood culture,2026-04-17 15:32:10.272695+00,Escherichia coli (ESBL),piperacillin-tazobactam,S,16
+195,P010,Blood culture,2026-04-17 15:32:10.272695+00,Escherichia coli (ESBL),ertapenem,S,<=0.5
+196,P010,Blood culture,2026-04-17 15:32:10.272695+00,Escherichia coli (ESBL),meropenem,S,<=0.25
+197,P010,Blood culture,2026-04-17 15:32:10.272695+00,Escherichia coli (ESBL),ciprofloxacin,R,>=4
+198,P010,Blood culture,2026-04-19 08:59:29.526821+00,Staphylococcus aureus (MSSA),oxacillin,S,0.5
+199,P010,Blood culture,2026-04-19 08:59:29.526821+00,Staphylococcus aureus (MSSA),cefazolin,S,<=2
+200,P010,Blood culture,2026-04-19 08:59:29.526821+00,Staphylococcus aureus (MSSA),vancomycin,S,1
+201,P010,Blood culture,2026-04-20 06:16:05.593904+00,,,,
+202,P023,Wound swab,2026-04-22 01:46:45.434734+00,Staphylococcus aureus (MRSA),oxacillin,R,>=4
+203,P023,Wound swab,2026-04-22 01:46:45.434734+00,Staphylococcus aureus (MRSA),vancomycin,S,1
+204,P023,Wound swab,2026-04-22 01:46:45.434734+00,Staphylococcus aureus (MRSA),daptomycin,S,0.5
+205,P023,Wound swab,2026-04-22 01:46:45.434734+00,Staphylococcus aureus (MRSA),linezolid,S,2
+206,P023,Wound swab,2026-04-22 01:46:45.434734+00,Staphylococcus aureus (MRSA),trimethoprim-sulfamethoxazole,S,<=0.5/9.5
+207,P034,Urine culture,2026-04-22 14:46:16.665099+00,Enterococcus faecalis,ampicillin,S,<=2
+208,P034,Urine culture,2026-04-22 14:46:16.665099+00,Enterococcus faecalis,vancomycin,S,1
+209,P048,Urine culture,2026-02-14 17:17:54.521141+00,Enterococcus faecium (VRE),vancomycin,R,>=32
+210,P048,Urine culture,2026-02-14 17:17:54.521141+00,Enterococcus faecium (VRE),daptomycin,S,2
+211,P048,Blood culture,2026-04-17 11:27:32.174666+00,Staphylococcus aureus (MSSA),oxacillin,S,0.5
+212,P048,Blood culture,2026-04-17 11:27:32.174666+00,Staphylococcus aureus (MSSA),cefazolin,S,<=2
+213,P048,Blood culture,2026-04-17 11:27:32.174666+00,Staphylococcus aureus (MSSA),vancomycin,S,1
+214,P048,Urine culture,2026-04-22 14:38:53.904973+00,Klebsiella pneumoniae (ESBL),ceftriaxone,R,>=64
+215,P048,Urine culture,2026-04-22 14:38:53.904973+00,Klebsiella pneumoniae (ESBL),cefepime,R,>=32
+216,P048,Urine culture,2026-04-22 14:38:53.904973+00,Klebsiella pneumoniae (ESBL),piperacillin-tazobactam,S,16
+217,P048,Urine culture,2026-04-22 14:38:53.904973+00,Klebsiella pneumoniae (ESBL),ertapenem,S,<=0.5
+218,P048,Urine culture,2026-04-22 14:38:53.904973+00,Klebsiella pneumoniae (ESBL),meropenem,S,<=0.25
+219,P048,Urine culture,2026-04-22 14:38:53.904973+00,Klebsiella pneumoniae (ESBL),ciprofloxacin,R,>=4
+220,P050,Blood culture,2026-04-19 23:34:54.858918+00,,,,
+221,P050,Blood culture,2026-04-24 15:00:52.87485+00,Staphylococcus aureus (MSSA),oxacillin,S,0.5
+222,P050,Blood culture,2026-04-24 15:00:52.87485+00,Staphylococcus aureus (MSSA),cefazolin,S,<=2
+223,P050,Blood culture,2026-04-24 15:00:52.87485+00,Staphylococcus aureus (MSSA),vancomycin,S,1
+224,P018,Urine culture,2026-02-09 22:35:37.367583+00,Staphylococcus aureus (MRSA),oxacillin,R,>=4
+225,P018,Urine culture,2026-02-09 22:35:37.367583+00,Staphylococcus aureus (MRSA),vancomycin,S,1
+226,P018,PD effluent,2026-04-22 07:05:13.862563+00,Enterococcus faecium (VRE),vancomycin,R,>=32
+227,P018,PD effluent,2026-04-22 07:05:13.862563+00,Enterococcus faecium (VRE),ampicillin,R,>=32
+228,P018,PD effluent,2026-04-22 07:05:13.862563+00,Enterococcus faecium (VRE),linezolid,S,2
+229,P018,PD effluent,2026-04-22 07:05:13.862563+00,Enterococcus faecium (VRE),daptomycin,S,2
+230,P027,Blood culture,2026-04-24 10:14:15.342203+00,Staphylococcus aureus (MSSA),oxacillin,S,0.5
+231,P027,Blood culture,2026-04-24 10:14:15.342203+00,Staphylococcus aureus (MSSA),cefazolin,S,<=2
+232,P027,Blood culture,2026-04-24 10:14:15.342203+00,Staphylococcus aureus (MSSA),vancomycin,S,1
+233,P006,Urine culture,2026-04-23 17:23:03.573182+00,Escherichia coli,ceftriaxone,S,<=1
+234,P006,Urine culture,2026-04-23 17:23:03.573182+00,Escherichia coli,piperacillin-tazobactam,S,<=4
+235,P006,Urine culture,2026-04-23 17:23:03.573182+00,Escherichia coli,meropenem,S,<=0.25
+236,P006,Blood culture,2026-04-24 11:07:47.354872+00,Staphylococcus aureus (MSSA),oxacillin,S,0.5
+237,P006,Blood culture,2026-04-24 11:07:47.354872+00,Staphylococcus aureus (MSSA),cefazolin,S,<=2
+238,P006,Blood culture,2026-04-24 11:07:47.354872+00,Staphylococcus aureus (MSSA),vancomycin,S,1
+239,P037,Blood culture,2026-04-24 07:07:30.796693+00,Escherichia coli (ESBL),ceftriaxone,R,>=64
+240,P037,Blood culture,2026-04-24 07:07:30.796693+00,Escherichia coli (ESBL),cefepime,R,>=32
+241,P037,Blood culture,2026-04-24 07:07:30.796693+00,Escherichia coli (ESBL),piperacillin-tazobactam,S,16
+242,P037,Blood culture,2026-04-24 07:07:30.796693+00,Escherichia coli (ESBL),ertapenem,S,<=0.5
+243,P037,Blood culture,2026-04-24 07:07:30.796693+00,Escherichia coli (ESBL),meropenem,S,<=0.25
+244,P037,Blood culture,2026-04-24 07:07:30.796693+00,Escherichia coli (ESBL),ciprofloxacin,R,>=4
+245,P037,Blood culture,2026-04-30 16:50:16.380495+00,,,,
+246,P002,Urine culture,2026-02-04 19:32:20.699529+00,Staphylococcus aureus (MRSA),oxacillin,R,>=4
+247,P002,Urine culture,2026-02-04 19:32:20.699529+00,Staphylococcus aureus (MRSA),vancomycin,S,1
+248,P002,Blood culture,2026-04-27 12:39:23.784135+00,Staphylococcus aureus (MSSA),oxacillin,S,0.5
+249,P002,Blood culture,2026-04-27 12:39:23.784135+00,Staphylococcus aureus (MSSA),cefazolin,S,<=2
+250,P002,Blood culture,2026-04-27 12:39:23.784135+00,Staphylococcus aureus (MSSA),vancomycin,S,1
+251,P002,Urine culture,2026-04-29 10:42:26.488503+00,Enterococcus faecalis,ampicillin,S,<=2
+252,P002,Urine culture,2026-04-29 10:42:26.488503+00,Enterococcus faecalis,vancomycin,S,1
+253,P002,Urine culture,2026-05-01 22:38:24.118482+00,Escherichia coli,ceftriaxone,S,<=1
+254,P002,Urine culture,2026-05-01 22:38:24.118482+00,Escherichia coli,piperacillin-tazobactam,S,<=4
+255,P002,Urine culture,2026-05-01 22:38:24.118482+00,Escherichia coli,meropenem,S,<=0.25
+256,P039,Urine culture,2026-05-02 03:25:13.409737+00,Escherichia coli,ceftriaxone,S,<=1
+257,P039,Urine culture,2026-05-02 03:25:13.409737+00,Escherichia coli,piperacillin-tazobactam,S,<=4
+258,P039,Urine culture,2026-05-02 03:25:13.409737+00,Escherichia coli,meropenem,S,<=0.25
+259,P039,Blood culture,2026-05-04 02:22:41.82387+00,,,,
+260,P004,Blood culture,2026-05-04 01:48:41.686326+00,Escherichia coli (ESBL),ceftriaxone,R,>=64
+261,P004,Blood culture,2026-05-04 01:48:41.686326+00,Escherichia coli (ESBL),cefepime,R,>=32
+262,P004,Blood culture,2026-05-04 01:48:41.686326+00,Escherichia coli (ESBL),piperacillin-tazobactam,I,16
+263,P004,Blood culture,2026-05-04 01:48:41.686326+00,Escherichia coli (ESBL),ertapenem,R,>=8
+264,P004,Blood culture,2026-05-04 01:48:41.686326+00,Escherichia coli (ESBL),meropenem,R,>=16
+265,P004,Blood culture,2026-05-04 01:48:41.686326+00,Escherichia coli (ESBL),ciprofloxacin,R,>=4
+266,P004,Blood culture,2026-05-06 02:00:03.463392+00,,,,
+267,P004,Blood culture,2026-05-06 04:23:21.145059+00,Staphylococcus aureus (MSSA),oxacillin,S,0.5
+268,P004,Blood culture,2026-05-06 04:23:21.145059+00,Staphylococcus aureus (MSSA),cefazolin,S,<=2
+269,P004,Blood culture,2026-05-06 04:23:21.145059+00,Staphylococcus aureus (MSSA),vancomycin,S,1
+270,P032,Urine culture,2026-04-03 17:14:28.085797+00,Escherichia coli (ESBL),ceftriaxone,R,>=64
+271,P032,Urine culture,2026-04-03 17:14:28.085797+00,Escherichia coli (ESBL),meropenem,S,<=0.25
+272,P001,Blood culture,2026-05-20 19:25:43.319618+00,Staphylococcus aureus (MSSA),oxacillin,S,0.5
+273,P001,Blood culture,2026-05-20 19:25:43.319618+00,Staphylococcus aureus (MSSA),cefazolin,S,<=2
+274,P001,Blood culture,2026-05-20 19:25:43.319618+00,Staphylococcus aureus (MSSA),vancomycin,S,1
+275,P044,Blood culture,2026-05-16 23:05:25.012025+00,,,,
+276,P044,Blood culture,2026-05-19 13:50:20.728465+00,Enterococcus faecium (VRE),vancomycin,R,>=32
+277,P044,Blood culture,2026-05-19 13:50:20.728465+00,Enterococcus faecium (VRE),ampicillin,R,>=32
+278,P044,Blood culture,2026-05-19 13:50:20.728465+00,Enterococcus faecium (VRE),linezolid,S,2
+279,P044,Blood culture,2026-05-19 13:50:20.728465+00,Enterococcus faecium (VRE),daptomycin,R,8
+280,P044,Urine culture,2026-05-21 18:44:29.77447+00,Escherichia coli,ceftriaxone,S,<=1
+281,P044,Urine culture,2026-05-21 18:44:29.77447+00,Escherichia coli,piperacillin-tazobactam,S,<=4
+282,P044,Urine culture,2026-05-21 18:44:29.77447+00,Escherichia coli,meropenem,S,<=0.25
+283,P003,Blood culture,2026-05-18 10:34:51.367279+00,Staphylococcus aureus (MRSA),oxacillin,R,>=4
+284,P003,Blood culture,2026-05-18 10:34:51.367279+00,Staphylococcus aureus (MRSA),vancomycin,S,0.5
+285,P003,Blood culture,2026-05-18 10:34:51.367279+00,Staphylococcus aureus (MRSA),daptomycin,S,0.5
+286,P003,Blood culture,2026-05-18 10:34:51.367279+00,Staphylococcus aureus (MRSA),linezolid,S,2
+287,P003,Blood culture,2026-05-18 10:34:51.367279+00,Staphylococcus aureus (MRSA),trimethoprim-sulfamethoxazole,S,<=0.5/9.5
+288,P003,Blood culture,2026-05-22 23:40:02.916889+00,,,,
+289,P040,Urine culture,2026-05-20 11:46:05.273008+00,Escherichia coli,ceftriaxone,S,<=1
+290,P040,Urine culture,2026-05-20 11:46:05.273008+00,Escherichia coli,piperacillin-tazobactam,S,<=4
+291,P040,Urine culture,2026-05-20 11:46:05.273008+00,Escherichia coli,meropenem,S,<=0.25
+292,P040,Blood culture,2026-05-22 12:20:39.985708+00,Enterococcus faecium (VRE),vancomycin,R,>=32
+293,P040,Blood culture,2026-05-22 12:20:39.985708+00,Enterococcus faecium (VRE),ampicillin,R,>=32
+294,P040,Blood culture,2026-05-22 12:20:39.985708+00,Enterococcus faecium (VRE),linezolid,S,2
+295,P040,Blood culture,2026-05-22 12:20:39.985708+00,Enterococcus faecium (VRE),daptomycin,R,8
+296,P026,Blood culture,2026-05-23 06:55:02.076464+00,Staphylococcus aureus (MSSA),oxacillin,S,0.5
+297,P026,Blood culture,2026-05-23 06:55:02.076464+00,Staphylococcus aureus (MSSA),cefazolin,S,<=2
+298,P026,Blood culture,2026-05-23 06:55:02.076464+00,Staphylococcus aureus (MSSA),vancomycin,S,1
+299,P026,Blood culture,2026-05-26 07:43:43.328267+00,,,,
+300,P048,Urine culture,2026-05-24 22:26:41.886614+00,Escherichia coli (ESBL),ceftriaxone,R,>=64
+301,P048,Urine culture,2026-05-24 22:26:41.886614+00,Escherichia coli (ESBL),cefepime,R,>=32
+302,P048,Urine culture,2026-05-24 22:26:41.886614+00,Escherichia coli (ESBL),piperacillin-tazobactam,I,16
+303,P048,Urine culture,2026-05-24 22:26:41.886614+00,Escherichia coli (ESBL),ertapenem,S,<=0.5
+304,P048,Urine culture,2026-05-24 22:26:41.886614+00,Escherichia coli (ESBL),meropenem,S,<=0.25
+305,P048,Urine culture,2026-05-24 22:26:41.886614+00,Escherichia coli (ESBL),ciprofloxacin,R,>=4
+306,P013,Urine culture,2026-05-22 20:47:24.683822+00,Enterococcus faecalis,ampicillin,S,<=2
+307,P013,Urine culture,2026-05-22 20:47:24.683822+00,Enterococcus faecalis,vancomycin,S,1
+308,P013,Blood culture,2026-05-27 20:38:09.449753+00,Staphylococcus aureus (MRSA),oxacillin,R,>=4
+309,P013,Blood culture,2026-05-27 20:38:09.449753+00,Staphylococcus aureus (MRSA),vancomycin,S,0.5
+310,P013,Blood culture,2026-05-27 20:38:09.449753+00,Staphylococcus aureus (MRSA),daptomycin,S,0.5
+311,P013,Blood culture,2026-05-27 20:38:09.449753+00,Staphylococcus aureus (MRSA),linezolid,S,2
+312,P013,Blood culture,2026-05-27 20:38:09.449753+00,Staphylococcus aureus (MRSA),trimethoprim-sulfamethoxazole,S,<=0.5/9.5
+313,P013,Blood culture,2026-05-30 09:21:37.589408+00,,,,
+314,P031,Urine culture,2026-05-28 05:06:28.070069+00,Escherichia coli,ceftriaxone,S,<=1
+315,P031,Urine culture,2026-05-28 05:06:28.070069+00,Escherichia coli,piperacillin-tazobactam,S,<=4
+316,P031,Urine culture,2026-05-28 05:06:28.070069+00,Escherichia coli,meropenem,S,<=0.25
+317,P023,Wound swab,2026-05-31 16:33:35.671776+00,Staphylococcus aureus (MRSA),oxacillin,R,>=4
+318,P023,Wound swab,2026-05-31 16:33:35.671776+00,Staphylococcus aureus (MRSA),vancomycin,S,0.5
+319,P023,Wound swab,2026-05-31 16:33:35.671776+00,Staphylococcus aureus (MRSA),daptomycin,S,0.5
+320,P023,Wound swab,2026-05-31 16:33:35.671776+00,Staphylococcus aureus (MRSA),linezolid,S,2
+321,P023,Wound swab,2026-05-31 16:33:35.671776+00,Staphylococcus aureus (MRSA),trimethoprim-sulfamethoxazole,S,<=0.5/9.5
+322,P023,Blood culture,2026-06-05 14:01:01.59031+00,,,,
+323,P011,Blood culture,2026-06-15 18:08:59.095374+00,Klebsiella pneumoniae (ESBL),ceftriaxone,R,>=64
+324,P011,Blood culture,2026-06-15 18:08:59.095374+00,Klebsiella pneumoniae (ESBL),cefepime,R,>=32
+325,P011,Blood culture,2026-06-15 18:08:59.095374+00,Klebsiella pneumoniae (ESBL),piperacillin-tazobactam,S,16
+326,P011,Blood culture,2026-06-15 18:08:59.095374+00,Klebsiella pneumoniae (ESBL),ertapenem,S,<=0.5
+327,P011,Blood culture,2026-06-15 18:08:59.095374+00,Klebsiella pneumoniae (ESBL),meropenem,S,<=0.25
+328,P011,Blood culture,2026-06-15 18:08:59.095374+00,Klebsiella pneumoniae (ESBL),ciprofloxacin,R,>=4
+329,P019,Urine culture,2026-06-09 15:42:21.644034+00,Escherichia coli,ceftriaxone,S,<=1
+330,P019,Urine culture,2026-06-09 15:42:21.644034+00,Escherichia coli,piperacillin-tazobactam,S,<=4
+331,P019,Urine culture,2026-06-09 15:42:21.644034+00,Escherichia coli,meropenem,S,<=0.25
+332,P024,Blood culture,2026-06-17 20:00:07.125865+00,Klebsiella pneumoniae (ESBL),ceftriaxone,R,>=64
+333,P024,Blood culture,2026-06-17 20:00:07.125865+00,Klebsiella pneumoniae (ESBL),cefepime,R,>=32
+334,P024,Blood culture,2026-06-17 20:00:07.125865+00,Klebsiella pneumoniae (ESBL),piperacillin-tazobactam,S,16
+335,P024,Blood culture,2026-06-17 20:00:07.125865+00,Klebsiella pneumoniae (ESBL),ertapenem,S,<=0.5
+336,P024,Blood culture,2026-06-17 20:00:07.125865+00,Klebsiella pneumoniae (ESBL),meropenem,S,<=0.25
+337,P024,Blood culture,2026-06-17 20:00:07.125865+00,Klebsiella pneumoniae (ESBL),ciprofloxacin,R,>=4
+338,P024,Blood culture,2026-06-17 22:05:58.048142+00,,,,
+339,P029,Blood culture,2026-06-21 22:39:34.846232+00,Staphylococcus aureus (MSSA),oxacillin,S,0.5
+340,P029,Blood culture,2026-06-21 22:39:34.846232+00,Staphylococcus aureus (MSSA),cefazolin,S,<=2
+341,P029,Blood culture,2026-06-21 22:39:34.846232+00,Staphylococcus aureus (MSSA),vancomycin,S,1
+342,P029,Blood culture,2026-06-24 23:47:46.928085+00,,,,
+343,P014,Blood culture,2026-06-20 22:15:14.899955+00,Staphylococcus aureus (MRSA),oxacillin,R,>=4
+344,P014,Blood culture,2026-06-20 22:15:14.899955+00,Staphylococcus aureus (MRSA),vancomycin,S,1
+345,P014,Blood culture,2026-06-20 22:15:14.899955+00,Staphylococcus aureus (MRSA),daptomycin,S,0.5
+346,P014,Blood culture,2026-06-20 22:15:14.899955+00,Staphylococcus aureus (MRSA),linezolid,S,2
+347,P014,Blood culture,2026-06-20 22:15:14.899955+00,Staphylococcus aureus (MRSA),trimethoprim-sulfamethoxazole,S,<=0.5/9.5
+348,P014,Urine culture,2026-06-23 13:05:03.385096+00,Escherichia coli,ceftriaxone,S,<=1
+349,P014,Urine culture,2026-06-23 13:05:03.385096+00,Escherichia coli,piperacillin-tazobactam,S,<=4
+350,P014,Urine culture,2026-06-23 13:05:03.385096+00,Escherichia coli,meropenem,S,<=0.25
+351,P043,Urine culture,2026-06-21 02:11:38.322363+00,Enterococcus faecalis,ampicillin,S,<=2
+352,P043,Urine culture,2026-06-21 02:11:38.322363+00,Enterococcus faecalis,vancomycin,S,1
+353,P043,Blood culture,2026-06-26 15:37:52.240251+00,,,,
+354,P043,Urine culture,2026-06-28 10:24:24.548676+00,Escherichia coli,ceftriaxone,S,<=1
+355,P043,Urine culture,2026-06-28 10:24:24.548676+00,Escherichia coli,piperacillin-tazobactam,S,<=4
+356,P043,Urine culture,2026-06-28 10:24:24.548676+00,Escherichia coli,meropenem,S,<=0.25
+357,P018,Urine culture,2026-06-26 18:01:47.206998+00,Enterococcus faecium (VRE),vancomycin,R,>=32
+358,P018,Urine culture,2026-06-26 18:01:47.206998+00,Enterococcus faecium (VRE),ampicillin,R,>=32
+359,P018,Urine culture,2026-06-26 18:01:47.206998+00,Enterococcus faecium (VRE),linezolid,S,2
+360,P018,Urine culture,2026-06-26 18:01:47.206998+00,Enterococcus faecium (VRE),daptomycin,R,8
+361,P010,Wound swab,2026-07-08 23:03:36.03275+00,Staphylococcus aureus (MRSA),oxacillin,R,>=4
+362,P010,Wound swab,2026-07-08 23:03:36.03275+00,Staphylococcus aureus (MRSA),vancomycin,S,1
+363,P010,Wound swab,2026-07-08 23:03:36.03275+00,Staphylococcus aureus (MRSA),daptomycin,S,0.5
+364,P010,Wound swab,2026-07-08 23:03:36.03275+00,Staphylococcus aureus (MRSA),linezolid,S,2
+365,P010,Wound swab,2026-07-08 23:03:36.03275+00,Staphylococcus aureus (MRSA),trimethoprim-sulfamethoxazole,S,<=0.5/9.5
+366,P010,Urine culture,2026-07-09 06:50:44.463704+00,Enterococcus faecalis,ampicillin,S,<=2
+367,P010,Urine culture,2026-07-09 06:50:44.463704+00,Enterococcus faecalis,vancomycin,S,1
+368,P032,Urine culture,2026-07-06 18:49:54.749989+00,Enterococcus faecalis,ampicillin,S,<=2
+369,P032,Urine culture,2026-07-06 18:49:54.749989+00,Enterococcus faecalis,vancomycin,S,1
+370,P032,Urine culture,2026-07-09 01:58:12.557247+00,Escherichia coli,ceftriaxone,S,<=1
+371,P032,Urine culture,2026-07-09 01:58:12.557247+00,Escherichia coli,piperacillin-tazobactam,S,<=4
+372,P032,Urine culture,2026-07-09 01:58:12.557247+00,Escherichia coli,meropenem,S,<=0.25
+373,P032,Blood culture,2026-07-12 11:26:02.770337+00,Staphylococcus aureus (MRSA),oxacillin,R,>=4
+374,P032,Blood culture,2026-07-12 11:26:02.770337+00,Staphylococcus aureus (MRSA),vancomycin,I,4
+375,P032,Blood culture,2026-07-12 11:26:02.770337+00,Staphylococcus aureus (MRSA),daptomycin,S,0.5
+376,P032,Blood culture,2026-07-12 11:26:02.770337+00,Staphylococcus aureus (MRSA),linezolid,S,2
+377,P032,Blood culture,2026-07-12 11:26:02.770337+00,Staphylococcus aureus (MRSA),trimethoprim-sulfamethoxazole,S,<=0.5/9.5
+378,P037,Blood culture,2026-07-09 07:09:03.530733+00,,,,
+379,P037,Blood culture,2026-07-13 06:09:20.260915+00,Staphylococcus aureus (MRSA),oxacillin,R,>=4
+380,P037,Blood culture,2026-07-13 06:09:20.260915+00,Staphylococcus aureus (MRSA),vancomycin,S,0.5
+381,P037,Blood culture,2026-07-13 06:09:20.260915+00,Staphylococcus aureus (MRSA),daptomycin,S,0.5
+382,P037,Blood culture,2026-07-13 06:09:20.260915+00,Staphylococcus aureus (MRSA),linezolid,S,2
+383,P037,Blood culture,2026-07-13 06:09:20.260915+00,Staphylococcus aureus (MRSA),trimethoprim-sulfamethoxazole,S,<=0.5/9.5
+384,P026,Blood culture,2026-07-17 22:49:00.088498+00,Staphylococcus aureus (MRSA),oxacillin,R,>=4
+385,P026,Blood culture,2026-07-17 22:49:00.088498+00,Staphylococcus aureus (MRSA),vancomycin,S,1
+386,P026,Blood culture,2026-07-17 22:49:00.088498+00,Staphylococcus aureus (MRSA),daptomycin,S,0.5
+387,P026,Blood culture,2026-07-17 22:49:00.088498+00,Staphylococcus aureus (MRSA),linezolid,S,2
+388,P026,Blood culture,2026-07-17 22:49:00.088498+00,Staphylococcus aureus (MRSA),trimethoprim-sulfamethoxazole,S,<=0.5/9.5
+389,P001,Blood culture,2026-07-20 03:38:04.844468+00,Staphylococcus aureus (MRSA),oxacillin,R,>=4
+390,P001,Blood culture,2026-07-20 03:38:04.844468+00,Staphylococcus aureus (MRSA),vancomycin,S,0.5
+391,P001,Blood culture,2026-07-20 03:38:04.844468+00,Staphylococcus aureus (MRSA),daptomycin,S,0.5
+392,P001,Blood culture,2026-07-20 03:38:04.844468+00,Staphylococcus aureus (MRSA),linezolid,S,2
+393,P001,Blood culture,2026-07-20 03:38:04.844468+00,Staphylococcus aureus (MRSA),trimethoprim-sulfamethoxazole,S,<=0.5/9.5
+394,P004,Blood culture,2026-07-26 03:09:41.501504+00,,,,
+395,P004,Urine culture,2026-07-28 02:12:15.096797+00,Enterococcus faecalis,ampicillin,S,<=2
+396,P004,Urine culture,2026-07-28 02:12:15.096797+00,Enterococcus faecalis,vancomycin,S,1
+397,P044,Blood culture,2026-07-27 07:41:40.252595+00,,,,
+398,P044,Blood culture,2026-07-31 01:23:17.047616+00,Staphylococcus aureus (MRSA),oxacillin,R,>=4
+399,P044,Blood culture,2026-07-31 01:23:17.047616+00,Staphylococcus aureus (MRSA),vancomycin,S,0.5
+400,P044,Blood culture,2026-07-31 01:23:17.047616+00,Staphylococcus aureus (MRSA),daptomycin,S,0.5
+401,P044,Blood culture,2026-07-31 01:23:17.047616+00,Staphylococcus aureus (MRSA),linezolid,S,2
+402,P044,Blood culture,2026-07-31 01:23:17.047616+00,Staphylococcus aureus (MRSA),trimethoprim-sulfamethoxazole,S,<=0.5/9.5
+403,P039,Urine culture,2026-07-29 12:20:19.170331+00,Escherichia coli,ceftriaxone,S,<=1
+404,P039,Urine culture,2026-07-29 12:20:19.170331+00,Escherichia coli,piperacillin-tazobactam,S,<=4
+405,P039,Urine culture,2026-07-29 12:20:19.170331+00,Escherichia coli,meropenem,S,<=0.25
+406,P039,Blood culture,2026-07-31 15:32:12.918507+00,,,,
+407,P039,Blood culture,2026-08-01 03:04:18.810355+00,Staphylococcus aureus (MSSA),oxacillin,S,0.5
+408,P039,Blood culture,2026-08-01 03:04:18.810355+00,Staphylococcus aureus (MSSA),cefazolin,S,<=2
+409,P039,Blood culture,2026-08-01 03:04:18.810355+00,Staphylococcus aureus (MSSA),vancomycin,S,1

@@ -1,0 +1,34 @@
+{
+  "tree_id": "daptomycin_v1",
+  "drug": "daptomycin",
+  "illustrative": true,
+  "disclaimer": "ILLUSTRATIVE ONLY. Synthetic stewardship logic for a prototype; not clinical guidance.",
+  "variables": {
+    "pulmonary_source": {"type": "bool", "source": "text", "description": "The infection being treated is pneumonia / a lung source (daptomycin is inactivated by surfactant)."},
+    "vre_isolated": {"type": "bool", "source": "structured", "description": "VRE isolated from any specimen in the 14 days up to requested_at."},
+    "dapto_susceptible": {"type": "bool", "source": "structured", "description": "The VRE isolate(s) in the window test daptomycin-susceptible (S). Null if no VRE or not tested."},
+    "mrsa_isolated": {"type": "bool", "source": "structured", "description": "MRSA isolated from any specimen in the 14 days up to requested_at."},
+    "vanc_allergy_severity": {"type": "enum", "values": ["none", "mild", "moderate", "severe", "anaphylaxis"], "source": "structured", "description": "Highest recorded severity of any vancomycin allergy/intolerance in the allergies table; 'none' if no row."},
+    "vanc_failure_or_intolerance": {"type": "bool", "source": "text", "description": "Clinical/microbiological failure on vancomycin (e.g. persistent bacteremia >= 72h on therapeutic levels, worsening) or documented vancomycin intolerance (vanc-attributed AKI, rash, infusion reaction NOT controllable by slowing the infusion)."},
+    "on_dialysis": {"type": "bool", "source": "structured", "description": "patients.dialysis_modality is HD or PD."},
+    "egfr_latest": {"type": "number", "source": "structured", "description": "Most recent EGFR lab value (mL/min/1.73m2) collected at or before requested_at."}
+  },
+  "root": "n1",
+  "nodes": {
+    "n1": {"label": "Pulmonary source?", "var": "pulmonary_source", "op": "==", "value": true, "yes": "DENY_ELIGIBLE", "no": "n2"},
+    "n2": {"label": "VRE isolated (14d)?", "var": "vre_isolated", "op": "==", "value": true, "yes": "n3", "no": "n4"},
+    "n3": {"label": "VRE daptomycin-susceptible?", "var": "dapto_susceptible", "op": "==", "value": true, "yes": "APPROVE_ELIGIBLE", "no": "PHARMACIST_REVIEW"},
+    "n4": {"label": "MRSA isolated (14d)?", "var": "mrsa_isolated", "op": "==", "value": true, "yes": "n5", "no": "n7"},
+    "n5": {"label": "Severe vancomycin allergy?", "var": "vanc_allergy_severity", "op": "in", "value": ["severe", "anaphylaxis"], "yes": "APPROVE_ELIGIBLE", "no": "n6"},
+    "n6": {"label": "MRSA: vanc failure/intolerance?", "var": "vanc_failure_or_intolerance", "op": "==", "value": true, "yes": "APPROVE_ELIGIBLE", "no": "n8"},
+    "n7": {"label": "No VRE/MRSA: vanc failure/intolerance?", "var": "vanc_failure_or_intolerance", "op": "==", "value": true, "yes": "PHARMACIST_REVIEW", "no": "DENY_ELIGIBLE"},
+    "n8": {"label": "On dialysis?", "var": "on_dialysis", "op": "==", "value": true, "yes": "DENY_ELIGIBLE", "no": "n9"},
+    "n9": {"label": "Advanced CKD (eGFR < 30), protect residual function?", "var": "egfr_latest", "op": "<", "value": 30, "yes": "PHARMACIST_REVIEW", "no": "DENY_ELIGIBLE"}
+  },
+  "outcomes": {
+    "APPROVE_ELIGIBLE": "Criteria for restricted daptomycin met (dapto-susceptible VRE; MRSA with severe vancomycin allergy or vancomycin failure/intolerance).",
+    "DENY_ELIGIBLE": "Criteria not met: pulmonary source (daptomycin inactivated by surfactant), or vancomycin remains appropriate (incl. post-HD dosing). Routes to pharmacist, never auto-denied.",
+    "PHARMACIST_REVIEW": "Dapto-nonsusceptible VRE, vanc failure without MRSA/VRE isolate, or non-dialysis advanced CKD where avoiding vancomycin nephrotoxicity may matter.",
+    "NEED_INFO": "A variable needed on the decision path could not be determined from the record."
+  }
+}

@@ -1,0 +1,66 @@
+id,patient_id,agent,reaction,severity,recorded_at
+1,P001,Ampicillin,anaphylaxis,anaphylaxis,2025-08-07 00:00:00+00
+2,P001,Vancomycin,flushing,mild,2025-08-10 00:00:00+00
+3,P003,Heparin,HIT,severe,2025-08-30 00:00:00+00
+4,P004,Ampicillin,anaphylaxis,anaphylaxis,2025-03-15 00:00:00+00
+5,P004,Cephalexin,rash,mild,2025-03-25 00:00:00+00
+6,P005,Penicillin,angioedema,severe,2025-02-10 00:00:00+00
+7,P005,Latex,contact dermatitis,mild,2025-02-20 00:00:00+00
+8,P006,Penicillin,angioedema,severe,2025-06-04 00:00:00+00
+9,P006,Vancomycin,DRESS,severe,2025-06-07 00:00:00+00
+10,P006,Iodinated contrast,unknown,unknown,2025-06-14 00:00:00+00
+11,P007,Penicillin,anaphylaxis,anaphylaxis,2025-10-13 00:00:00+00
+12,P008,Ampicillin,anaphylaxis,anaphylaxis,2025-11-28 00:00:00+00
+13,P009,Amoxicillin,itching,mild,2025-01-03 00:00:00+00
+14,P011,Amoxicillin,itching,mild,2025-09-12 00:00:00+00
+15,P011,Codeine,nausea,mild,2025-09-22 00:00:00+00
+16,P014,Penicillin,hives/rash,moderate,2025-11-25 00:00:00+00
+17,P015,Vancomycin,red man syndrome,moderate,2025-05-25 00:00:00+00
+18,P016,Vancomycin,red man syndrome,moderate,2025-09-28 00:00:00+00
+19,P017,Ampicillin,anaphylaxis,anaphylaxis,2025-10-21 00:00:00+00
+20,P017,Vancomycin,flushing,mild,2025-10-24 00:00:00+00
+21,P018,Penicillin,angioedema,severe,2025-03-22 00:00:00+00
+22,P022,Penicillin,angioedema,severe,2025-08-08 00:00:00+00
+23,P022,Codeine,nausea,mild,2025-08-18 00:00:00+00
+24,P023,Penicillin,anaphylaxis,anaphylaxis,2025-08-24 00:00:00+00
+25,P024,Penicillin,angioedema,severe,2025-11-08 00:00:00+00
+26,P024,Vancomycin,flushing,mild,2025-11-11 00:00:00+00
+27,P025,Vancomycin,red man syndrome,moderate,2025-01-16 00:00:00+00
+28,P025,Codeine,nausea,mild,2025-01-23 00:00:00+00
+29,P026,Ampicillin,anaphylaxis,anaphylaxis,2025-03-06 00:00:00+00
+30,P026,Vancomycin,DRESS,severe,2025-03-09 00:00:00+00
+31,P027,Vancomycin,flushing,mild,2025-09-21 00:00:00+00
+32,P027,Heparin,HIT,severe,2025-09-28 00:00:00+00
+33,P028,Vancomycin,DRESS,severe,2025-08-03 00:00:00+00
+34,P028,Sulfamethoxazole-trimethoprim,rash,moderate,2025-08-10 00:00:00+00
+35,P029,Vancomycin,anaphylaxis,anaphylaxis,2025-04-27 00:00:00+00
+36,P029,Latex,contact dermatitis,mild,2025-05-04 00:00:00+00
+37,P030,Penicillin,anaphylaxis,anaphylaxis,2025-03-25 00:00:00+00
+38,P030,Vancomycin,flushing,mild,2025-03-28 00:00:00+00
+39,P031,Penicillin,angioedema,severe,2025-12-22 00:00:00+00
+40,P031,Sulfamethoxazole-trimethoprim,rash,moderate,2026-01-01 00:00:00+00
+41,P032,Penicillin,anaphylaxis,anaphylaxis,2025-07-17 00:00:00+00
+42,P032,Heparin,HIT,severe,2025-07-27 00:00:00+00
+43,P034,Latex,contact dermatitis,mild,2025-02-10 00:00:00+00
+44,P036,Penicillin,angioedema,severe,2025-11-10 00:00:00+00
+45,P036,Latex,contact dermatitis,mild,2025-11-20 00:00:00+00
+46,P037,Ampicillin,anaphylaxis,anaphylaxis,2025-07-04 00:00:00+00
+47,P037,Iodinated contrast,unknown,unknown,2025-07-14 00:00:00+00
+48,P040,Vancomycin,red man syndrome,moderate,2025-08-30 00:00:00+00
+49,P040,Heparin,HIT,severe,2025-09-06 00:00:00+00
+50,P041,Penicillin,angioedema,severe,2025-07-25 00:00:00+00
+51,P041,Sulfamethoxazole-trimethoprim,rash,moderate,2025-08-04 00:00:00+00
+52,P042,Ampicillin,anaphylaxis,anaphylaxis,2025-10-26 00:00:00+00
+53,P042,Vancomycin,red man syndrome,moderate,2025-10-29 00:00:00+00
+54,P042,Latex,contact dermatitis,mild,2025-11-05 00:00:00+00
+55,P043,Amoxicillin,hives/rash,moderate,2025-08-02 00:00:00+00
+56,P044,Codeine,nausea,mild,2025-08-01 00:00:00+00
+57,P045,Ampicillin,anaphylaxis,anaphylaxis,2025-02-05 00:00:00+00
+58,P047,Amoxicillin,itching,mild,2025-01-23 00:00:00+00
+59,P047,Cephalexin,rash,mild,2025-02-02 00:00:00+00
+60,P048,Ampicillin,anaphylaxis,anaphylaxis,2025-11-20 00:00:00+00
+61,P049,Penicillin,anaphylaxis,anaphylaxis,2025-01-30 00:00:00+00
+62,P049,Vancomycin,red man syndrome,moderate,2025-02-02 00:00:00+00
+63,P049,Heparin,HIT,severe,2025-02-09 00:00:00+00
+64,P050,Amoxicillin,itching,mild,2025-06-20 00:00:00+00
+65,P050,Vancomycin,red man syndrome,moderate,2025-06-23 00:00:00+00

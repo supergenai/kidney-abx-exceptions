@@ -1,0 +1,127 @@
+structured verification: 0 mismatches
+[1/80] R0013 daptomycin NEED_INFO: ok after 1 attempt(s)
+[2/80] R0015 meropenem APPROVE_ELIGIBLE: ok after 1 attempt(s)
+[3/80] R0025 vancomycin APPROVE_ELIGIBLE: ok after 1 attempt(s)
+[4/80] R0022 meropenem PHARMACIST_REVIEW: ok after 1 attempt(s)
+[5/80] R0020 daptomycin DENY_ELIGIBLE: ok after 1 attempt(s)
+[6/80] R0008 vancomycin PHARMACIST_REVIEW: ok after 1 attempt(s)
+[7/80] R0012 meropenem PHARMACIST_REVIEW: ok after 1 attempt(s)
+[8/80] R0005 meropenem APPROVE_ELIGIBLE: ok after 1 attempt(s)
+[9/80] R0017 meropenem DENY_ELIGIBLE: ok after 1 attempt(s)
+[10/80] R0023 vancomycin DENY_ELIGIBLE: ok after 1 attempt(s)
+[11/80] R0019 vancomycin DENY_ELIGIBLE: ok after 1 attempt(s)
+[12/80] R0003 vancomycin DENY_ELIGIBLE: ok after 1 attempt(s)
+[13/80] R0001 meropenem DENY_ELIGIBLE: ok after 1 attempt(s)
+[14/80] R0007 daptomycin DENY_ELIGIBLE: ok after 1 attempt(s)
+[15/80] R0016 meropenem DENY_ELIGIBLE: ok after 1 attempt(s)
+[16/80] R0010 vancomycin APPROVE_ELIGIBLE: ok after 1 attempt(s)
+[17/80] R0018 meropenem PHARMACIST_REVIEW: ok after 1 attempt(s)
+[18/80] R0002 vancomycin NEED_INFO: ok after 1 attempt(s)
+[19/80] R0004 vancomycin APPROVE_ELIGIBLE: ok after 1 attempt(s)
+[20/80] R0009 vancomycin DENY_ELIGIBLE: ok after 1 attempt(s)
+[21/80] R0011 meropenem DENY_ELIGIBLE: ok after 1 attempt(s)
+[22/80] R0006 daptomycin APPROVE_ELIGIBLE: ok after 1 attempt(s)
+[23/80] R0014 daptomycin APPROVE_ELIGIBLE: ok after 1 attempt(s)
+[24/80] R0024 daptomycin PHARMACIST_REVIEW: ok after 1 attempt(s)
+[25/80] R0032 daptomycin PHARMACIST_REVIEW: ok after 1 attempt(s)
+[26/80] R0033 daptomycin APPROVE_ELIGIBLE: ok after 1 attempt(s)
+[27/80] R0034 daptomycin DENY_ELIGIBLE: ok after 1 attempt(s)
+[28/80] R0035 vancomycin APPROVE_ELIGIBLE: ok after 1 attempt(s)
+[29/80] R0028 meropenem APPROVE_ELIGIBLE: ok after 1 attempt(s)
+[30/80] R0037 vancomycin NEED_INFO: ok after 1 attempt(s)
+[31/80] R0038 vancomycin DENY_ELIGIBLE: ok after 1 attempt(s)
+[32/80] R0039 meropenem APPROVE_ELIGIBLE: ok after 1 attempt(s)
+[33/80] R0040 daptomycin APPROVE_ELIGIBLE: ok after 1 attempt(s)
+[34/80] R0041 vancomycin APPROVE_ELIGIBLE: ok after 1 attempt(s)
+[35/80] R0042 meropenem APPROVE_ELIGIBLE: ok after 1 attempt(s)
+[36/80] R0043 meropenem NEED_INFO: ok after 1 attempt(s)
+[37/80] R0044 meropenem DENY_ELIGIBLE: ok after 1 attempt(s)
+[38/80] R0045 vancomycin DENY_ELIGIBLE: ok after 1 attempt(s)
+[39/80] R0046 vancomycin DENY_ELIGIBLE: ok after 1 attempt(s)
+[40/80] R0047 daptomycin APPROVE_ELIGIBLE: ok after 1 attempt(s)
+[41/80] R0048 meropenem DENY_ELIGIBLE: ok after 1 attempt(s)
+[42/80] R0049 meropenem APPROVE_ELIGIBLE: ok after 1 attempt(s)
+[43/80] R0050 meropenem DENY_ELIGIBLE: ok after 1 attempt(s)
+[44/80] R0051 daptomycin NEED_INFO: ok after 1 attempt(s)
+[45/80] R0052 daptomycin DENY_ELIGIBLE: ok after 1 attempt(s)
+[46/80] R0053 meropenem PHARMACIST_REVIEW: ok after 1 attempt(s)
+[47/80] R0054 vancomycin NEED_INFO: ok after 1 attempt(s)
+[48/80] R0055 vancomycin PHARMACIST_REVIEW: ok after 1 attempt(s)
+[49/80] R0056 daptomycin PHARMACIST_REVIEW: ok after 1 attempt(s)
+[50/80] R0057 daptomycin NEED_INFO: ok after 1 attempt(s)
+[51/80] R0058 daptomycin PHARMACIST_REVIEW: ok after 1 attempt(s)
+[52/80] R0059 vancomycin PHARMACIST_REVIEW: ok after 1 attempt(s)
+[53/80] R0060 daptomycin PHARMACIST_REVIEW: ok after 1 attempt(s)
+[54/80] R0061 meropenem DENY_ELIGIBLE: ok after 1 attempt(s)
+[55/80] R0062 daptomycin PHARMACIST_REVIEW: ok after 1 attempt(s)
+[56/80] R0063 meropenem NEED_INFO: ok after 1 attempt(s)
+[57/80] R0064 vancomycin APPROVE_ELIGIBLE: ok after 1 attempt(s)
+[58/80] R0065 meropenem APPROVE_ELIGIBLE: ok after 1 attempt(s)
+[59/80] R0066 vancomycin APPROVE_ELIGIBLE: ok after 1 attempt(s)
+[60/80] R0067 meropenem APPROVE_ELIGIBLE: ok after 1 attempt(s)
+[61/80] R0068 daptomycin DENY_ELIGIBLE: ok after 1 attempt(s)
+[62/80] R0031 meropenem PHARMACIST_REVIEW: ok after 1 attempt(s)
+[63/80] R0070 vancomycin APPROVE_ELIGIBLE: ok after 1 attempt(s)
+[64/80] R0071 meropenem NEED_INFO: ok after 1 attempt(s)
+[65/80] R0072 daptomycin PHARMACIST_REVIEW: ok after 1 attempt(s)
+[66/80] R0073 daptomycin APPROVE_ELIGIBLE: ok after 1 attempt(s)
+[67/80] R0074 vancomycin PHARMACIST_REVIEW: ok after 1 attempt(s)
+[68/80] R0075 daptomycin APPROVE_ELIGIBLE: ok after 1 attempt(s)
+[69/80] R0076 daptomycin APPROVE_ELIGIBLE: ok after 1 attempt(s)
+[70/80] R0077 daptomycin NEED_INFO: ok after 1 attempt(s)
+[71/80] R0078 vancomycin PHARMACIST_REVIEW: ok after 1 attempt(s)
+[72/80] R0079 daptomycin DENY_ELIGIBLE: ok after 1 attempt(s)
+[73/80] R0080 vancomycin DENY_ELIGIBLE: ok after 1 attempt(s)
+[74/80] R0021 meropenem PHARMACIST_REVIEW: ok after 1 attempt(s)
+[75/80] R0027 meropenem NEED_INFO: ok after 1 attempt(s)
+[76/80] R0029 vancomycin PHARMACIST_REVIEW: ok after 1 attempt(s)
+[77/80] R0036 vancomycin PHARMACIST_REVIEW: ok after 1 attempt(s)
+[78/80] R0030 vancomycin NEED_INFO: ok after 1 attempt(s)
+[79/80] R0069 daptomycin DENY_ELIGIBLE: ok after 1 attempt(s)
+[80/80] R0026 meropenem PHARMACIST_REVIEW: ok after 1 attempt(s)
+{
+  "seed": 20261005,
+  "model": "kimi-k3",
+  "planned_requests": 80,
+  "kept": 80,
+  "dropped": [],
+  "first_pass_ok": 80,
+  "ok_after_1_retry": 0,
+  "ok_after_2_retries": 0,
+  "target_fallbacks": 2,
+  "row_counts": {
+    "patients": 50,
+    "labs": 1421,
+    "allergies": 65,
+    "microbiology": 409,
+    "clinical_notes": 164,
+    "exception_requests": 80
+  },
+  "distribution": {
+    "meropenem": {
+      "DENY_ELIGIBLE": 8,
+      "APPROVE_ELIGIBLE": 8,
+      "PHARMACIST_REVIEW": 7,
+      "NEED_INFO": 4
+    },
+    "vancomycin": {
+      "NEED_INFO": 4,
+      "DENY_ELIGIBLE": 8,
+      "APPROVE_ELIGIBLE": 8,
+      "PHARMACIST_REVIEW": 7
+    },
+    "daptomycin": {
+      "APPROVE_ELIGIBLE": 8,
+      "DENY_ELIGIBLE": 7,
+      "NEED_INFO": 4,
+      "PHARMACIST_REVIEW": 7
+    }
+  },
+  "dose_flagged": 20,
+  "kimi_usage": {
+    "cached_calls": 160,
+    "prompt_tokens_orig": 172703,
+    "completion_tokens_orig": 451178
+  },
+  "elapsed_s": 0.6
+}

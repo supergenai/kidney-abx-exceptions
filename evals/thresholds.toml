@@ -1,0 +1,39 @@
+# Release gate, checked by `uv run python -m evals.run ... --gate` (non-zero exit on failure).
+# suite = "*" pools every suite in the run; a check whose suite was not run is SKIPPED (CI should run --suite all).
+# Metric names are the keys of evals.run.aggregate().
+
+[[check]]
+metric = "unsafe_approve"        # count of APPROVE_ELIGIBLE where gold is anything else
+suite = "*"
+op = "=="
+value = 0
+
+[[check]]
+metric = "false_fill_rate"       # pooled over text vars absent from the text
+suite = "*"
+op = "<="
+value = 0.02
+
+[[check]]
+metric = "outcome_accuracy"
+suite = "golden_test"
+op = ">="
+value = 0.95
+
+[[check]]
+metric = "case_pass_rate"
+suite = "behavioral"
+op = ">="
+value = 0.9
+
+[[check]]
+metric = "invariance_pass_rate"
+suite = "invariance"
+op = ">="
+value = 0.95
+
+[[check]]
+metric = "quote_failed_rate"
+suite = "*"
+op = "<="
+value = 0.05

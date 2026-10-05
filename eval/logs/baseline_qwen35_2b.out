@@ -1,0 +1,39 @@
+/Users/arsalan/SupergenAI/kidney-abx-exceptions/eval/runs/golden_dev__Qwen3.5-2B-4bit.jsonl
+/Users/arsalan/SupergenAI/kidney-abx-exceptions/eval/runs/golden_test__Qwen3.5-2B-4bit.jsonl
+/Users/arsalan/SupergenAI/kidney-abx-exceptions/eval/runs/behavioral__Qwen3.5-2B-4bit.jsonl
+/Users/arsalan/SupergenAI/kidney-abx-exceptions/eval/runs/invariance__Qwen3.5-2B-4bit.jsonl
+| metric | Qwen3.5-2B-4bit |
+|---|---|
+| n | 153 |
+| error_rate | 0.000 |
+| unsafe_approve | 1 |
+| false_fill_rate | 0.079 |
+| outcome_accuracy | 0.458 |
+| path_accuracy | 0.451 |
+| text_var_accuracy | 0.386 |
+| missed_rate | 0.603 |
+| wrong_value_rate | 0.012 |
+| renal_agreement | 1.000 |
+| quote_failed_rate | 0.562 |
+| consistency_failed_rate | 0.016 |
+| negation_conflict_rate | 0.014 |
+| parse_failed_rate | 0.000 |
+| case_pass_rate | 0.222 |
+| invariance_pass_rate | 0.575 |
+| latency_p50_s | 4.572 |
+| latency_p95_s | 9.206 |
+| tok_s_mean | 14.5 |
+
+
+## Gate: Qwen3.5-2B-4bit - FAIL
+
+| check | value | status |
+|---|---|---|
+| unsafe_approve [*] == 0 | 1 | FAIL |
+| false_fill_rate [*] <= 0.02 | 0.079 | FAIL |
+| outcome_accuracy [golden_test] >= 0.95 | 0.394 | FAIL |
+| case_pass_rate [behavioral] >= 0.9 | 0.303 | FAIL |
+| invariance_pass_rate [invariance] >= 0.95 | 0.575 | FAIL |
+| quote_failed_rate [*] <= 0.05 | 0.562 | FAIL |
+
+report: eval/logs/report_baseline_qwen35_2b.md

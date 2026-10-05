@@ -1,0 +1,24 @@
+/Users/arsalan/SupergenAI/kidney-abx-exceptions/eval/runs/behavioral__Qwen3.5-2B-4bit.jsonl
+| metric | Qwen3.5-2B-4bit |
+|---|---|
+| n | 33 |
+| error_rate | 0.000 |
+| unsafe_approve | 1 |
+| false_fill_rate | 0.106 |
+| outcome_accuracy | 0.758 |
+| path_accuracy | 0.758 |
+| text_var_accuracy | 0.772 |
+| missed_rate | 0.175 |
+| wrong_value_rate | 0.053 |
+| renal_agreement | 1.000 |
+| quote_failed_rate | 0.000 |
+| consistency_failed_rate | 0.048 |
+| negation_conflict_rate | 0.010 |
+| parse_failed_rate | 0.000 |
+| case_pass_rate | 0.606 |
+| invariance_pass_rate | - |
+| latency_p50_s | 4.288 |
+| latency_p95_s | 6.076 |
+| tok_s_mean | 25.6 |
+
+report: eval/logs/report_qwen35-2b__v2_negscope_behavioral.md
